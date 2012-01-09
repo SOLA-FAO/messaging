@@ -1,6 +1,6 @@
 /**
  * ******************************************************************************************
- * Copyright (C) 2011 - Food and Agriculture Organization of the United Nations (FAO).
+ * Copyright (C) 2012 - Food and Agriculture Organization of the United Nations (FAO).
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without modification,
@@ -105,6 +105,8 @@ public class ServiceMessage {
     public static final String EJB_APPLICATION_SERVICE_NOT_FOUND = EJB_APPLICATION + "001";
     /** serejbapplication002 - Application is not found.*/
     public static final String EJB_APPLICATION_APPLICATION_NOT_FOUND = EJB_APPLICATION + "002";
+    /** serejbapplication003 - Only information service requests can be handled.*/
+    public static final String EJB_APPLICATION_SERVICE_REQUEST_TYPE_INFORMATION_REQUIRED = EJB_APPLICATION + "003";
 
     //SourceEJB Messages
     /** serejbsource001 - Source does not exist. */

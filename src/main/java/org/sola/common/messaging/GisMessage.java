@@ -1,6 +1,6 @@
 /**
  * ******************************************************************************************
- * Copyright (C) 2011 - Food and Agriculture Organization of the United Nations (FAO).
+ * Copyright (C) 2012 - Food and Agriculture Organization of the United Nations (FAO).
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without modification,
@@ -46,6 +46,7 @@ public class GisMessage {
     private static final String LOCATE = MSG_PREFIX + "locate";
     private static final String GEOTOOLS = MSG_PREFIX + "geotools5";
     private static final String CADASTRE_CHANGE = MSG_PREFIX + "_cadastre_change_";
+    private static final String LEFT_PANEL = MSG_PREFIX + "_left_panel_";
    // General Messages
     /** gisgnrl001 - Error starting the service */
     public static final String GENERAL_ERROR_STARTING_SERVICE = GENERAL + "001";
@@ -57,15 +58,25 @@ public class GisMessage {
     public static final String GENERAL_EXCEPTION_TYPE_NOTSUPPORTED = GENERAL + "004";
     /** gisgnrl005 - Under Construction */
     public static final String GENERAL_UNDER_CONSTRUCTION = GENERAL + "005";
-   // Info Tool    
-    /** gisinfotool001 - Click to get information */
+     /** gisgnrl006 -  ControBundle error setup*/
+    public static final String GENERAL_CONTROLBUNDLE_ERROR = GENERAL + "006";
+    /** gisgnrl007 -  gis.controlbundleforapplication.error.setup ControBundle for Application error setup*/
+    public static final String GENERAL_CONTROLBUNDLEAPP_ERROR = GENERAL + "007";
+   
+    // Info Tool    
+   /** gisinfotool001 - Click to get information */
     public static final String INFOTOOL_CLICK = INFOTOOL + "001";
+    
+    
    // Locate Remove App    
     /** gislocate001 - Click to remove location */
     public static final String LOCATE_REMOVE = LOCATE + "001";
     /** gislocate002 - Error in setting location */
     public static final String LOCATE_ERROR_SETUP = LOCATE + "002";
+     /** gislocate003 - Error in setting location  Error in setting application location*/
+    public static final String LOCATE_ERROR_APPLICATION = LOCATE + "003";
 
+    // GEOTOOLS
     public static final String ADDING_FEATURE_ERROR = GEOTOOLS + "01";
     public static final String MAPCONTROL_MAPCONTEXT_WITHOUT_SRID_ERROR = GEOTOOLS + "02";
     public static final String DRAWINGTOOL_GEOMETRY_NOT_VALID_ERROR = GEOTOOLS + "03";
@@ -81,9 +92,29 @@ public class GisMessage {
     public static final String DRAWINGTOOL_NOT_ENOUGH_POINTS_INFORMATIVE = GEOTOOLS + "13";
     public static final String PARCEL_TARGET_NOT_FOUND = GEOTOOLS + "14";
     public static final String PARCEL_ERROR_ADDING_PARCEL  = GEOTOOLS + "15";
-
-    //Cadastre change messages
-
+    public static final String SURVEY_POINTS_SHOW  = GEOTOOLS + "16";
+    public static final String GEOTOOL_ADDING_FEATURE_ERROR = GEOTOOLS + "17";
+    public static final String GEOTOOL_MAPCONTEXT_WITHOUT_SRID_ERROR = GEOTOOLS + "18";
+    public static final String GEOTOOL_GEOMETRY_NOT_VALID_ERROR = GEOTOOLS + "19";
+    public static final String GEOTOOL_LAYERGRAPHICS_STARTUP_ERROR    = GEOTOOLS + "20";
+    public static final String GEOTOOL_FILE_NOT_FOUND_ERROR    = GEOTOOLS + "21";
+    public static final String GEOTOOL_REMOVE_ALL_FEATURES_ERROR   = GEOTOOLS + "22";
+    public static final String GEOTOOL_LAYER_NOT_ADDED  = GEOTOOLS + "23";
+    public static final String GEOTOOL_WMSLAYER_NOT_INITIALIZED_ERROR  = GEOTOOLS + "24";
+    public static final String GEOTOOL_WMSLAYER_LAYER_NOT_FOUND_ERROR = GEOTOOLS + "25";
+    public static final String GEOTOOL_SLD_DOESNOT_EXIST_ERROR  = GEOTOOLS + "26";
+    public static final String GEOTOOL_SLD_LOADING_ERROR  = GEOTOOLS + "27";
+    public static final String GEOTOOL_COORDSYS_COULDNOT_BE_CREATED_ERROR  = GEOTOOLS + "28";
+    public static final String GEOTOOL_NOT_ENOUGH_POINTS_INFORMATIVE  = GEOTOOLS + "29";
+    public static final String GEOTOOL_TOOLTIP_FULL_EXTENT  = GEOTOOLS + "30";
+    public static final String GEOTOOL_TOOLTIP_ZOOM_OUT  = GEOTOOLS + "31";
+    public static final String GEOTOOL_TOOLTIP_ZOOM_IN  = GEOTOOLS + "32";
+    public static final String GEOTOOL_TOOLTIP_PAN  = GEOTOOLS + "33";
+    public static final String PRINT  = GEOTOOLS + "34";
+    public static final String PRINT_LAYOUT_NOT_SELECTED = GEOTOOLS + "35";
+    public static final String PRINT_SCALE_NOT_CORRECT = GEOTOOLS + "36";
+    
+    //CADASTRE CHANGE
     /** The point has to fall on an current node or to a line*/
     public static final String CADASTRE_CHANGE_HAS_TO_SNAP  = CADASTRE_CHANGE + "001";
     /** The points of the new parcel has to fall in the points that are marked boundary.*/
@@ -107,7 +138,31 @@ public class GisMessage {
      public static final String CADASTRE_CHANGE_ERROR_ADDTARGET_IN_START  = CADASTRE_CHANGE + "010";
     /** The cadastre change is saved successfully.*/
     public static final String CADASTRE_CHANGE_SAVED_SUCCESSFULLY  = CADASTRE_CHANGE + "011";
-     
+    /**New cadastral objects form*/
+    public static final String CADASTRE_OBJ_LIST_SHOW  = CADASTRE_CHANGE + "012";
+    /**New Parcel tooltip*/
+    public static final String CADASTRE_TOOLTIP_NEW_PARCEL  = CADASTRE_CHANGE + "013";
+    /**New/ modify survey points*/
+    public static final String CADASTRE_TOOLTIP_NEW_SURVEYPOINT  = CADASTRE_CHANGE + "014";
+   /**Select / unselect target parcel*/
+    public static final String CADASTRE_TOOLTIP_SELECT_PARCEL  = CADASTRE_CHANGE + "015";
+   /**gis.baunit.cadastreobjects.error.setup  Error in cadastre object setup*/
+    public static final String CADASTRE_OBJBAUNIT_SETUP_ERROR = CADASTRE_CHANGE + "016";
+   /**X or Y are not valid*/
+    public static final String CADASTRE_SURVEY_ADD_POINT = CADASTRE_CHANGE + "017";
+    /*Click to remove location*/
+    public static final String CADASTRE_TOOLTIP_REMOVE_LOCATION = CADASTRE_CHANGE + "018";
+     /*Click to remove location*/
+    public static final String CADASTRE_TOOLTIP_ADD_LOCATION = CADASTRE_CHANGE + "019";
+      
+    // Messages related with the left panel
+    /* Layers */
+    public static final String LEFT_PANEL_TAB_LAYERS_TITLE = LEFT_PANEL + "01";
+    /* Find */
+    public static final String LEFT_PANEL_TAB_FIND_TITLE = LEFT_PANEL + "02";
+    /* There is an error while searching.*/
+    public static final String LEFT_PANEL_FIND_ERROR = LEFT_PANEL + "03";
+ 
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /** gistest001 - Unit Test Message */
     public static final String TEST001 = TEST + "001";

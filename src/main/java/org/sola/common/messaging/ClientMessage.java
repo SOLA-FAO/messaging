@@ -1,6 +1,6 @@
 /**
  * ******************************************************************************************
- * Copyright (C) 2011 - Food and Agriculture Organization of the United Nations (FAO).
+ * Copyright (C) 2012 - Food and Agriculture Organization of the United Nations (FAO).
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without modification,
@@ -48,6 +48,7 @@ public class ClientMessage {
     private static final String VALIDATION = MSG_PREFIX + "vldtn";
     private static final String SOURCE = MSG_PREFIX + "source";
     private static final String ADMIN = MSG_PREFIX + "admin";
+    private static final String BR = MSG_PREFIX + "br";
     
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /** clitest001 - Unit Test Message */
@@ -82,6 +83,9 @@ public class ClientMessage {
     /** clignrl013 - Record has been updated successfully. */
     public static final String GENERAL_RECORD_SAVED = GENERAL + "013";
     
+    public static final String GENERAL_LABELS_INDIVIDUAL = GENERAL + "014";
+    
+    public static final String GENERAL_LABELS_ENTITY = GENERAL + "015";
         
     // Service Messages
     /** cliserv001 - Unable to initialize the {0} service. The reason is: {1} */
@@ -117,7 +121,61 @@ public class ClientMessage {
     // validation hibernate messages 
     /** clichck008 - name cannot be null */
     public static final String CHECK_NOTNULL_NAME = CHECK + "008";
-                                
+    public static final String CHECK_NOTNULL_CODE = CHECK + "009";
+    public static final String CHECK_NOTNULL_STATUS = CHECK + "010";
+    public static final String CHECK_SIZE_STATUS = CHECK + "011";
+    public static final String CHECK_NOTNULL_DISPLAYVALUE = CHECK + "012";
+    public static final String CHECK_NOTNULL_ADDRESS = CHECK + "013";
+    public static final String CHECK_NOTNULL_FIRSTPART = CHECK + "014";
+    public static final String CHECK_NOTNULL_LASTPART = CHECK + "015";
+    public static final String CHECK_NOTNULL_NOTATION = CHECK + "016";
+    public static final String CHECK_NOTNULL_EXPIRATION = CHECK + "017";
+    public static final String CHECK_FUTURE_EXPIRATION = CHECK + "018";
+    public static final String CHECK_NOTNULL_MORTGAGEAMOUNT = CHECK + "019";
+    public static final String CHECK_NOTNULL_MORTAGAETYPE = CHECK + "020";
+    public static final String CHECK_SIZE_SOURCELIST = CHECK + "021";
+    public static final String CHECK_NODUPLICATED_SOURCELIST = CHECK + "022";
+    public static final String CHECK_SIZE_RRRSHARELIST = CHECK + "023";
+    public static final String CHECK_TOTALSHARE_RRRSHARELIST = CHECK + "024";
+    public static final String CHECK_SIZE_RIGHTHOLDERLIST = CHECK + "025";
+    public static final String CHECK_NOTNULL_NOMINATOR = CHECK + "026";
+    public static final String CHECK_MIN_NOMINATOR = CHECK + "027";
+    public static final String CHECK_NOTNULL_DENOMINATOR = CHECK + "028";
+    public static final String CHECK_MIN_DENOMINATOR = CHECK + "029";
+    public static final String CHECK_NODUPLI_RIGHTHOLDERLIST = CHECK + "030";
+    public static final String CHECK_SIZE_FILTERRIGHTHOLDER = CHECK + "031";
+    public static final String CHECK_NOTNULL_CADFIRSTPART = CHECK + "032";
+    public static final String CHECK_NOTNULL_CADLASTPART = CHECK + "033";
+    public static final String CHECK_NOTNULL_CADOBJTYPE = CHECK + "034";
+    public static final String CHECK_INVALID_EMAIL = CHECK + "035";
+    public static final String CHECK_NOTNULL_LASTNAME = CHECK + "036";
+    public static final String CHECK_MIN_GROUPROLES = CHECK + "037";
+    public static final String CHECK_NOTNULL_GROUPNAME = CHECK + "038";
+    public static final String CHECK_NOTNULL_PASSWORD = CHECK + "039";
+    public static final String CHECK_MIN_PASSWORD = CHECK + "040";
+    public static final String CHECK_NOTNULL_CONFPASSWORD = CHECK + "041";
+    public static final String CHECK_NOTNULL_USERNAME = CHECK + "042";
+    public static final String CHECK_MIN_USERGROUP = CHECK + "043";
+    public static final String CHECK_NOTNULL_FIRSTNAME = CHECK + "044";
+    public static final String CHECK_NOTEQUAL_PASSWORD = CHECK + "045";
+    public static final String CHECK_NOTNULL_RECORDATION = CHECK + "046";
+    public static final String CHECK_NOTNULL_REFERENCENR = CHECK + "047";
+    public static final String CHECK_NOTNULL_SOURCETYPE = CHECK + "048";
+    public static final String CHECK_NOTNULL_DISPLAYNAME = CHECK + "049";
+    public static final String CHECK_BEANNOTEMPTY_BRTECHTYPE = CHECK + "050";
+    public static final String CHECK_SIZE_BRDEFLIST = CHECK + "051";
+    public static final String CHECK_SIZE_BRVALLIST = CHECK + "052";
+    public static final String CHECK_NOTNULL_BRID = CHECK + "053";
+    public static final String CHECK_NOTNULL_ACTIVEFROM = CHECK + "054";
+    public static final String CHECK_NOTNULL_ACTIVEUNTIL = CHECK + "055";
+    public static final String CHECK_NOTNULL_BODY = CHECK + "056";
+    public static final String CHECK_NOTNULL_BRVALID = CHECK + "057";
+    public static final String CHECK_BEANNOTNULL_BRSEVTYPE = CHECK + "058";
+    public static final String CHECK_BEANNOTNULL_BRVALTARGETTYPE = CHECK + "059";
+    public static final String CHECK_GENERICNULL_OBJECT = CHECK + "060";
+    public static final String CHECK_GENERICDUPL_OBJECT = CHECK + "061";
+    
+    
     
     // Application messages
     /** cliapp001 - Select document to attach digital copy. */
@@ -212,6 +270,10 @@ public class ClientMessage {
     /** cliapp037 - The action against the application #{0}, has been successful. */
     public static final String APPLICATION_ACTION_SUCCESS = APPLICATION + "037";
     
+     /** cliapp038 - Opening application form... */
+    public static final String APPLICATION_OPENING_FORM = APPLICATION + "038";
+    
+    
     // Reports messages.
     /** clirpt001 - Report generation failed. Error details: {0} */
     public static final String REPORT_GENERATION_FAILED = REPORT + "001";
@@ -274,8 +336,8 @@ public class ClientMessage {
     /** cliparty002 - You are about to save party.\nDo you want to proceed?  */
     public static final String PARTY_SAVE_CONFIRM = PARTY + "002";
     
-    /** cliparty003 - Party saved successfully */
-    public static final String PARTY_SUCCESSFULLY_SAVED = PARTY + "003";
+    /** cliparty003 - Person has been saved. */
+    public static final String PARTY_SAVED = PARTY + "003";
     
     /** cliparty004 - Fill party fields */
     public static final String PARTY_FILL_PARTY = PARTY + "004";
@@ -288,6 +350,9 @@ public class ClientMessage {
     
    /** cliparty007 - Role already added  */
      public static final String PARTY_ALREADYSELECTED_ROLE = PARTY + "007";
+     
+     /** cliparty008 - Person has been created. */
+    public static final String PARTY_CREATED = PARTY + "003";
     
    // Source messages
      
@@ -321,6 +386,19 @@ public class ClientMessage {
      /** clivldtn007 -  Minimum value for denominator is 1. */
      public static final String  VALIDATION_MIN_DEN = VALIDATION +  "007";
 
+     // BR messages
+     
+     /** clibr001 -  For selected target type \"Service moment\" and \"Application moment\" should be empty. */
+     public static final String  BR_REGISTRATION_MOMENT_VALIDATION = BR +  "001";
+     /** clibr002 -  For selected target type \"Service moment\" and \"Registration moment\" should be empty. */
+     public static final String  BR_APPLICATION_MOMENT_VALIDATION = BR +  "002";
+     /** clibr003 -  Select Right and Restriction target type. */
+     public static final String  BR_RRR_TYPE_VALIDATION = BR +  "003";
+    /** clibr004 -  For selected target type \"Application moment\" and \"Registration moment\" should be empty. */
+     public static final String  BR_SERVICE_MOMENT_VALIDATION = BR +  "004";
+     /** clibr005 -  Select target type, different from application. */
+     public static final String  BR_REQUEST_TYPE_VALIDATION = BR +  "005";
+     
      // Admin messages
     
      /** cliadmin001 - Are you sure you want to delete group? All users included in the group will lose access rights, assigned to this group. */
@@ -355,5 +433,16 @@ public class ClientMessage {
     public static final String ADMIN_REFDATA_CREATED = ADMIN + "015";
     /** cliadmin016 - Are you sure you want to delete \"{0}\"?. It might affect data in other tables.*/
     public static final String ADMIN_CONFIRM_DELETE_REFDATA = ADMIN + "016";
-    
+    /** cliadmin017 - Object has been saved successfully.*/
+    public static final String ADMIN_OBJECT_SAVED = ADMIN + "017";
+    /** cliadmin018 - No business rules where found.*/
+    public static final String ADMIN_BR_NO_FOUND = ADMIN + "018";
+    /** cliadmin019 - New business rule has been created. */
+    public static final String ADMIN_BR_CREATED = ADMIN + "019";
+    /** cliadmin020 - Business rule has been saved successfully.*/
+    public static final String ADMIN_BR_SAVED = ADMIN + "020";
+    /** cliadmin021 - Are you sure you want to delete \"{0}\"?.*/
+    public static final String ADMIN_CONFIRM_DELETE_BR = ADMIN + "021";
+    /** cliadmin022 - There are business rule validations dependent on the current object. Remove them first before deleting object. */
+    public static final String ADMIN_BR_REMOVE_VALIDATIONS = ADMIN + "022";
 }
