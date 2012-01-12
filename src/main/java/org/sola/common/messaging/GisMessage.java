@@ -155,6 +155,12 @@ public class GisMessage {
      /*Click to remove location*/
     public static final String CADASTRE_TOOLTIP_ADD_LOCATION = CADASTRE_CHANGE + "019";
       
+    /**Select a node to change its coordinates*/
+    public static final String CADASTRE_TOOLTIP_CHANGE_NODE  = CADASTRE_CHANGE + "020";
+
+    /**Select a node to remove*/
+    public static final String CADASTRE_TOOLTIP_REMOVE_NODE  = CADASTRE_CHANGE + "021";
+
     // Messages related with the left panel
     /* Layers */
     public static final String LEFT_PANEL_TAB_LAYERS_TITLE = LEFT_PANEL + "01";
