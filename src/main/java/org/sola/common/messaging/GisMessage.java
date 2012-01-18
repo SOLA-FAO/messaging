@@ -155,6 +155,21 @@ public class GisMessage {
      /*Click to remove location*/
     public static final String CADASTRE_TOOLTIP_ADD_LOCATION = CADASTRE_CHANGE + "019";
       
+    /**Select a node to change its coordinates*/
+    public static final String CADASTRE_TOOLTIP_CHANGE_NODE  = CADASTRE_CHANGE + "020";
+
+    /**Select a node to remove*/
+    public static final String CADASTRE_TOOLTIP_REMOVE_NODE  = CADASTRE_CHANGE + "021";
+
+    /**Coordinates entered are not valid.*/
+    public static final String CADASTRE_REDEFINITION_COORDS_NOT_VALID  = CADASTRE_CHANGE + "022";
+
+    /**Node is not found. This is a serious error. */
+    public static final String CADASTRE_REDEFINITION_NODE_NOTFOUND  = CADASTRE_CHANGE + "023";
+    
+    /**Node is related to more than 2 parcels.*/
+    public static final String CADASTRE_REDEFINITION_NODE_HAS_MORE_THAN_ONE_CO  = CADASTRE_CHANGE + "024";
+    
     // Messages related with the left panel
     /* Layers */
     public static final String LEFT_PANEL_TAB_LAYERS_TITLE = LEFT_PANEL + "01";
