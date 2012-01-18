@@ -175,8 +175,6 @@ public class ClientMessage {
     public static final String CHECK_GENERICNULL_OBJECT = CHECK + "060";
     public static final String CHECK_GENERICDUPL_OBJECT = CHECK + "061";
     
-    
-    
     // Application messages
     /** cliapp001 - Select document to attach digital copy. */
     public static final String APPLICATION_SELECT_DOCUMENT_TO_ATTACH_TO = APPLICATION + "001";
@@ -257,21 +255,18 @@ public class ClientMessage {
     public static final String APPLICATION_SERVICE_REVERT_FAILED = APPLICATION + "032";
     /** cliapp033 - Application service \"{0}\", has been successfully reverted. */
     public static final String APPLICATION_SERVICE_REVERT_SUCCESS = APPLICATION + "033";
-    
     /** cliapp034 - Application has critical violations. Fix them first, to continue. */
     public static final String APPLICATION_HAS_CRITICAL_VIOLATIONS = APPLICATION + "034";
-    
      /** cliapp035 - Service already added. */
     public static final String  APPLICATION_ALREADYSELECTED_SERVICE  = APPLICATION + "035";
-    
     /** cliapp036 - You are about to take action \"{0}\" against application. Are you sure? */
     public static final String APPLICATION_ACTION_WARNING_SOFT = APPLICATION + "036";
-
     /** cliapp037 - The action against the application #{0}, has been successful. */
     public static final String APPLICATION_ACTION_SUCCESS = APPLICATION + "037";
-    
      /** cliapp038 - Opening application form... */
     public static final String APPLICATION_OPENING_FORM = APPLICATION + "038";
+    /** cliapp039 - Do you want to pick up rights and parcels from existing Title? */
+    public static final String APPLICATION_SELECT_EXISTING_TITLE = APPLICATION + "039";
     
     
     // Reports messages.
@@ -304,9 +299,14 @@ public class ClientMessage {
     // BA unit messages
     /** clibaunit001 - Select parcel  */
     public static final String BAUNIT_SELECT_PARCEL = BAUNIT + "001";
-    
     /** clibaunit002 - Selected right doesn't have pending changes and can't be edited.  */
     public static final String BAUNIT_RRR_NO_PEDING_CHANGES = BAUNIT + "002";
+    /** clibaunit003 - Property not found.  */
+    public static final String BAUNIT_NOT_FOUND = BAUNIT + "003";
+    /** clibaunit004 - Nothing is selected. Do you want to continue?  */
+    public static final String BAUNIT_NOTHING_SELECTED = BAUNIT + "004";
+    /** clibaunit005 - You have selected parcels, related to existing property. Make sure to make changes in the current property object.  */
+    public static final String BAUNIT_EXISTING_PARCELS_SELECTED = BAUNIT + "005";
     
     // General error messages
     /** clierrs001 - Can't cerate a new file. {0} */
