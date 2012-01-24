@@ -46,6 +46,7 @@ public class GisMessage {
     private static final String LOCATE = MSG_PREFIX + "locate";
     private static final String GEOTOOLS = MSG_PREFIX + "geotools5";
     private static final String CADASTRE_CHANGE = MSG_PREFIX + "_cadastre_change_";
+    private static final String CADASTRE_REDEFINITION = MSG_PREFIX + "_cadastre_redefinition_";
     private static final String LEFT_PANEL = MSG_PREFIX + "_left_panel_";
    // General Messages
     /** gisgnrl001 - Error starting the service */
@@ -161,14 +162,24 @@ public class GisMessage {
     /**Select a node to remove*/
     public static final String CADASTRE_TOOLTIP_REMOVE_NODE  = CADASTRE_CHANGE + "021";
 
+    //Cadastre redefinition
     /**Coordinates entered are not valid.*/
-    public static final String CADASTRE_REDEFINITION_COORDS_NOT_VALID  = CADASTRE_CHANGE + "022";
+    public static final String CADASTRE_REDEFINITION_COORDS_NOT_VALID  = CADASTRE_REDEFINITION + "001";
 
-    /**Node is not found. This is a serious error. */
-    public static final String CADASTRE_REDEFINITION_NODE_NOTFOUND  = CADASTRE_CHANGE + "023";
+    /**An error occurred while adding a node. */
+    public static final String CADASTRE_REDEFINITION_ADD_NODE_ERROR  = CADASTRE_REDEFINITION + "002";
     
     /**Node is related to more than 2 parcels.*/
-    public static final String CADASTRE_REDEFINITION_NODE_HAS_MORE_THAN_ONE_CO  = CADASTRE_CHANGE + "024";
+    public static final String CADASTRE_REDEFINITION_NODE_HAS_MORE_THAN_ONE_CO  = CADASTRE_REDEFINITION + "003";
+    
+    /**Something went wrong while resetting the redefinition process.*/
+    public static final String CADASTRE_REDEFINITION_RESET_ERROR  = CADASTRE_REDEFINITION + "004";
+    
+    /**Reset the cadastre redefinition process*/
+    public static final String CADASTRE_REDEFINITION_RESET_TOOLTIP  = CADASTRE_REDEFINITION + "005";
+
+    /**An error occurred while adding a target cadastre object. */
+    public static final String CADASTRE_REDEFINITION_ADD_CO_ERROR  = CADASTRE_REDEFINITION + "006";
     
     // Messages related with the left panel
     /* Layers */
