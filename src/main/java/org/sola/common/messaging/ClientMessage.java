@@ -265,10 +265,7 @@ public class ClientMessage {
     public static final String APPLICATION_ACTION_SUCCESS = APPLICATION + "037";
      /** cliapp038 - Opening application form... */
     public static final String APPLICATION_OPENING_FORM = APPLICATION + "038";
-    /** cliapp039 - Do you want to pick up rights and parcels from existing Title? */
-    public static final String APPLICATION_SELECT_EXISTING_TITLE = APPLICATION + "039";
-    
-    
+   
     // Reports messages.
     /** clirpt001 - Report generation failed. Error details: {0} */
     public static final String REPORT_GENERATION_FAILED = REPORT + "001";
@@ -303,10 +300,20 @@ public class ClientMessage {
     public static final String BAUNIT_RRR_NO_PEDING_CHANGES = BAUNIT + "002";
     /** clibaunit003 - Property not found.  */
     public static final String BAUNIT_NOT_FOUND = BAUNIT + "003";
-    /** clibaunit004 - Nothing is selected. Do you want to continue?  */
+    /** clibaunit004 - Nothing is selected.  */
     public static final String BAUNIT_NOTHING_SELECTED = BAUNIT + "004";
     /** clibaunit005 - You have selected parcels, related to existing property. Make sure to make changes in the current property object.  */
     public static final String BAUNIT_EXISTING_PARCELS_SELECTED = BAUNIT + "005";
+    /** clibaunit006 - Do you want to link prior Property object? */
+    public static final String BAUNIT_SELECT_EXISTING_PROPERTY = BAUNIT + "006";
+    /** clibaunit007 - Select relation type.  */
+    public static final String BAUNIT_SELECT_RELATION_TYPE = BAUNIT + "007";
+    /** clibaunit008 - Relation type you have selected, should be the same as on existing parent Property list.  */
+    public static final String BAUNIT_WRONG_RELATION_TYPE = BAUNIT + "008";
+    /** clibaunit009 - The Property object you have selected, already exists in the list of parent Properties.  */
+    public static final String BAUNIT_HAS_SELECTED_PARENT_BA_UNIT = BAUNIT + "009";
+    /** clibaunit010 - Do you want to link more prior Property objects? */
+    public static final String BAUNIT_SELECT_EXISTING_PROPERTY_AGAIN = BAUNIT + "010";
     
     // General error messages
     /** clierrs001 - Can't cerate a new file. {0} */
