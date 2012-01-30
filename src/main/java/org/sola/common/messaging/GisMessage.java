@@ -181,6 +181,9 @@ public class GisMessage {
     /**An error occurred while adding a target cadastre object. */
     public static final String CADASTRE_REDEFINITION_ADD_CO_ERROR  = CADASTRE_REDEFINITION + "006";
     
+    /**Add a node.*/
+    public static final String CADASTRE_TOOLTIP_ADD_NODE  = CADASTRE_REDEFINITION + "007";
+
     // Messages related with the left panel
     /* Layers */
     public static final String LEFT_PANEL_TAB_LAYERS_TITLE = LEFT_PANEL + "01";
