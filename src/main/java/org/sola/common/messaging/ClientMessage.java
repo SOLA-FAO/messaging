@@ -314,11 +314,13 @@ public class ClientMessage {
     public static final String BAUNIT_HAS_SELECTED_PARENT_BA_UNIT = BAUNIT + "009";
     /** clibaunit010 - Do you want to link more prior Property objects? */
     public static final String BAUNIT_SELECT_EXISTING_PROPERTY_AGAIN = BAUNIT + "010";
-    /** clibaunit011 - You are about to cancel this Property. The current state will be saved and Property marked for cancellation. Do you want to proceed? */
+    /** clibaunit011 - You are about to terminate this Property.\n
+     * The current state will be saved and Property marked for termination.\n
+     * Do you want to proceed? */
     public static final String BAUNIT_CONFIRM_TERMINATION = BAUNIT + "011";
-    /** clibaunit012 - Property has been successfully canceled */
+    /** clibaunit012 - Property has been marked for termination. */
     public static final String BAUNIT_TERMINATED = BAUNIT + "012";
-    /** clibaunit013 - Property cancellation has been reverted. */
+    /** clibaunit013 - Property termination has been canceled. */
     public static final String BAUNIT_TERMINATION_CANCELED = BAUNIT + "013";
     
     // General error messages
