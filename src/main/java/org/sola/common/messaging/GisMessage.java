@@ -93,7 +93,6 @@ public class GisMessage {
     public static final String DRAWINGTOOL_NOT_ENOUGH_POINTS_INFORMATIVE = GEOTOOLS + "13";
     public static final String PARCEL_TARGET_NOT_FOUND = GEOTOOLS + "14";
     public static final String PARCEL_ERROR_ADDING_PARCEL  = GEOTOOLS + "15";
-    public static final String SURVEY_POINTS_SHOW  = GEOTOOLS + "16";
     public static final String GEOTOOL_ADDING_FEATURE_ERROR = GEOTOOLS + "17";
     public static final String GEOTOOL_MAPCONTEXT_WITHOUT_SRID_ERROR = GEOTOOLS + "18";
     public static final String GEOTOOL_GEOMETRY_NOT_VALID_ERROR = GEOTOOLS + "19";
@@ -142,11 +141,11 @@ public class GisMessage {
     /**New cadastral objects form*/
     public static final String CADASTRE_OBJ_LIST_SHOW  = CADASTRE_CHANGE + "012";
     /**New Parcel tooltip*/
-    public static final String CADASTRE_TOOLTIP_NEW_PARCEL  = CADASTRE_CHANGE + "013";
+    public static final String CADASTRE_CHANGE_TOOLTIP_NEW_PARCEL  = CADASTRE_CHANGE + "013";
     /**New/ modify survey points*/
-    public static final String CADASTRE_TOOLTIP_NEW_SURVEYPOINT  = CADASTRE_CHANGE + "014";
+    public static final String CADASTRE_CHANGE_TOOLTIP_NEW_SURVEYPOINT  = CADASTRE_CHANGE + "014";
    /**Select / unselect target parcel*/
-    public static final String CADASTRE_TOOLTIP_SELECT_PARCEL  = CADASTRE_CHANGE + "015";
+    public static final String CADASTRE_CHANGE_TOOLTIP_SELECT_PARCEL  = CADASTRE_CHANGE + "015";
    /**gis.baunit.cadastreobjects.error.setup  Error in cadastre object setup*/
     public static final String CADASTRE_OBJBAUNIT_SETUP_ERROR = CADASTRE_CHANGE + "016";
    /**X or Y are not valid*/
@@ -161,6 +160,8 @@ public class GisMessage {
 
     /**Select a node to remove*/
     public static final String CADASTRE_TOOLTIP_REMOVE_NODE  = CADASTRE_CHANGE + "021";
+
+    public static final String CADASTRE_CHANGE_POINTS_SHOW  = CADASTRE_CHANGE + "022";
 
     //Cadastre redefinition
     /**Coordinates entered are not valid.*/
