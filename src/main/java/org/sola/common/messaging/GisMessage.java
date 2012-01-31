@@ -47,6 +47,7 @@ public class GisMessage {
     private static final String GEOTOOLS = MSG_PREFIX + "geotools5";
     private static final String CADASTRE_CHANGE = MSG_PREFIX + "_cadastre_change_";
     private static final String CADASTRE_REDEFINITION = MSG_PREFIX + "_cadastre_redefinition_";
+    private static final String CADASTRE_BOUNDARY = MSG_PREFIX + "_cadastre_boundary_";
     private static final String LEFT_PANEL = MSG_PREFIX + "_left_panel_";
    // General Messages
     /** gisgnrl001 - Error starting the service */
@@ -185,6 +186,18 @@ public class GisMessage {
     /**Add a node.*/
     public static final String CADASTRE_TOOLTIP_ADD_NODE  = CADASTRE_REDEFINITION + "007";
 
+    /**Error while identifying the point of the target boundary.*/
+    public static final String CADASTRE_BOUNDARY_ADD_POINT_ERROR  = CADASTRE_BOUNDARY + "001";
+    
+    /**Modify the selected boundary*/
+    public static final String CADASTRE_BOUNDARY_EDIT_TOOL_TOOLTIP  = CADASTRE_BOUNDARY + "002";
+
+    /**Select a boundary to change*/
+    public static final String CADASTRE_BOUNDARY_SELECT_TOOL_TOOLTIP  = CADASTRE_BOUNDARY + "003";
+
+    /**Target layer is not defined.*/
+    public static final String CADASTRE_BOUNDARY_TARGET_LAYER_NOT_DEFINED  = CADASTRE_BOUNDARY + "004";
+    
     // Messages related with the left panel
     /* Layers */
     public static final String LEFT_PANEL_TAB_LAYERS_TITLE = LEFT_PANEL + "01";
