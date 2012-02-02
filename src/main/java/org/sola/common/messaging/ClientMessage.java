@@ -86,6 +86,14 @@ public class ClientMessage {
     public static final String GENERAL_LABELS_INDIVIDUAL = GENERAL + "014";
     
     public static final String GENERAL_LABELS_ENTITY = GENERAL + "015";
+    /** clignrl016 - Extinguish */
+    public static final String GENERAL_LABELS_EXTINGUISH = GENERAL + "016";
+    /** clignrl017 - Extinguish & Close */
+    public static final String GENERAL_LABELS_EXTINGUISH_AND_CLOSE = GENERAL + "017";
+    /** clignrl018 - Terminate */
+    public static final String GENERAL_LABELS_TERMINATE = GENERAL + "018";
+    /** clignrl019 - Terminate & Close */
+    public static final String GENERAL_LABELS_TERMINATE_AND_CLOSE = GENERAL + "019";
         
     // Service Messages
     /** cliserv001 - Unable to initialize the {0} service. The reason is: {1} */
@@ -460,4 +468,6 @@ public class ClientMessage {
     public static final String ADMIN_CONFIRM_DELETE_BR = ADMIN + "021";
     /** cliadmin022 - There are business rule validations dependent on the current object. Remove them first before deleting object. */
     public static final String ADMIN_BR_REMOVE_VALIDATIONS = ADMIN + "022";
+    /** cliadmin023 - Reference data object \"{0}\" has been saved. */
+    public static final String ADMIN_REFDATA_SAVED = ADMIN + "023";
 }
