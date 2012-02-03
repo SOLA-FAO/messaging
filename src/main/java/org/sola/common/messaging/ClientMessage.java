@@ -447,7 +447,7 @@ public class ClientMessage {
     /** cliadmin011 - Password has been changed successfully. */
     public static final String ADMIN_PASSWORD_CHANGED = ADMIN + "011";
     /** cliadmin012 - Current user can't be deleted. */
-    public static final String ADMIN_CURRENT_USER_DELETE_ERROR = ADMIN + "011";
+    public static final String ADMIN_CURRENT_USER_DELETE_ERROR = ADMIN + "012";
     /** cliadmin013 - You don't have administrator's rights. */
     public static final String ADMIN_NO_ADMIN_RIGHTS = ADMIN + "013";
     /** cliadmin014 - Current user can't be disabled. */
