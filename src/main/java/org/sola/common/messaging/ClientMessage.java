@@ -72,9 +72,9 @@ public class ClientMessage {
     public static final String GENERAL_LABELS_SAVE = GENERAL + "007";
     /** clignrl008 - Create  */
     public static final String GENERAL_LABELS_CREATE = GENERAL + "008";
-    /** clignrl009 - Create and Close  */
+    /** clignrl009 - Create & Close  */
     public static final String GENERAL_LABELS_CREATE_AND_CLOSE = GENERAL + "009";
-    /** clignrl010 - Save and Close  */
+    /** clignrl010 - Save & Close  */
     public static final String GENERAL_LABELS_SAVE_AND_CLOSE = GENERAL + "010";
     /** clignrl011 - Close  */
     public static final String GENERAL_LABELS_CLOSE = GENERAL + "011";
