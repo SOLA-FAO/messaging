@@ -198,6 +198,15 @@ public class GisMessage {
     /**Target layer is not defined.*/
     public static final String CADASTRE_BOUNDARY_TARGET_LAYER_NOT_DEFINED  = CADASTRE_BOUNDARY + "004";
     
+    /**Error while adding the target boundary.*/
+    public static final String CADASTRE_BOUNDARY_ADD_TARGET_BOUNDARY_ERROR = CADASTRE_BOUNDARY + "005";
+
+    /**Error while clearing the selection of the boundary.*/
+    public static final String CADASTRE_BOUNDARY_CLEAR_SELECTION_ERROR = CADASTRE_BOUNDARY + "006";
+
+    /**New boundary must start and end in the points of the target boundary.*/
+    public static final String CADASTRE_BOUNDARY_NEW_MUST_START_END_AS_TARGET = CADASTRE_BOUNDARY + "007";
+    
     // Messages related with the left panel
     /* Layers */
     public static final String LEFT_PANEL_TAB_LAYERS_TITLE = LEFT_PANEL + "01";
