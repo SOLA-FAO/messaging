@@ -207,6 +207,14 @@ public class GisMessage {
     /**New boundary must start and end in the points of the target boundary.*/
     public static final String CADASTRE_BOUNDARY_NEW_MUST_START_END_AS_TARGET = CADASTRE_BOUNDARY + "007";
     
+    /**Select a point as the starting point of the changing boundary.*/
+    public static final String CADASTRE_BOUNDARY_SELECT_FIRST_BOUNDARY_POINT = CADASTRE_BOUNDARY + "008";
+
+    /**Select a point as the ending point of the changing boundary.*/
+    public static final String CADASTRE_BOUNDARY_SELECT_SECOND_BOUNDARY_POINT = CADASTRE_BOUNDARY + "009";
+
+    /**The end point must not be the same with the end point.*/
+    public static final String CADASTRE_BOUNDARY_START_END_POINT_SAME = CADASTRE_BOUNDARY + "010";
     // Messages related with the left panel
     /* Layers */
     public static final String LEFT_PANEL_TAB_LAYERS_TITLE = LEFT_PANEL + "01";
