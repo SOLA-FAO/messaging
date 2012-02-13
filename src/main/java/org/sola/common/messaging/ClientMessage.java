@@ -94,6 +94,8 @@ public class ClientMessage {
     public static final String GENERAL_LABELS_TERMINATE = GENERAL + "018";
     /** clignrl019 - Terminate & Close */
     public static final String GENERAL_LABELS_TERMINATE_AND_CLOSE = GENERAL + "019";
+    /** clignrl020 - You have made some changes on the form. Do you want to save it before closing? */
+    public static final String GENERAL_FORM_CHANGES_WARNING = GENERAL + "020";
         
     // Service Messages
     /** cliserv001 - Unable to initialize the {0} service. The reason is: {1} */
