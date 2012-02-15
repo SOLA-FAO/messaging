@@ -49,6 +49,7 @@ public class ClientMessage {
     private static final String SOURCE = MSG_PREFIX + "source";
     private static final String ADMIN = MSG_PREFIX + "admin";
     private static final String BR = MSG_PREFIX + "br";
+    private static final String PROGRESSMSG = MSG_PREFIX + "prgs";
     
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /** clitest001 - Unit Test Message */
@@ -332,6 +333,10 @@ public class ClientMessage {
     public static final String BAUNIT_TERMINATED = BAUNIT + "012";
     /** clibaunit013 - Property termination has been canceled. */
     public static final String BAUNIT_TERMINATION_CANCELED = BAUNIT + "013";
+    /** clibaunit014 - Property has been saved successfully. */
+    public static final String BAUNIT_SAVED = BAUNIT + "014";
+    /** clibaunit015 - Failed to save property. */
+    public static final String BAUNIT_SAVE_FAILED = BAUNIT + "015";
     
     // General error messages
     /** clierrs001 - Can't cerate a new file. {0} */
@@ -472,4 +477,53 @@ public class ClientMessage {
     public static final String ADMIN_BR_REMOVE_VALIDATIONS = ADMIN + "022";
     /** cliadmin023 - Reference data object \"{0}\" has been saved. */
     public static final String ADMIN_REFDATA_SAVED = ADMIN + "023";
+    
+    // Progress bar messages
+    
+    /** cliprgs001 - Opening application form... */
+    public static final String PROGRESS_MSG_OPEN_APP = PROGRESSMSG + "001";
+    /** cliprgs002 - Opening application assignment form... */
+    public static final String PROGRESS_MSG_OPEN_APPASSIGN = PROGRESSMSG + "002";
+    /** cliprgs003 - Opening application search form... */
+    public static final String PROGRESS_MSG_OPEN_APPSEARCH = PROGRESSMSG + "003";
+    /** cliprgs004 - Opening map... */
+    public static final String PROGRESS_MSG_OPEN_MAP = PROGRESSMSG + "004";
+    /** cliprgs005 - Opening new application form... */
+    public static final String PROGRESS_MSG_OPEN_APPNEW = PROGRESSMSG + "005";
+    /** cliprgs006 - Opening property search form... */
+    public static final String PROGRESS_MSG_OPEN_PROPERTYSEARCH = PROGRESSMSG + "006";
+    /** cliprgs007 - Opening document search form... */
+    public static final String PROGRESS_MSG_OPEN_DOCUMENTSEARCH = PROGRESSMSG + "007";
+    /** cliprgs008 - Opening person search form... */
+    public static final String PROGRESS_MSG_OPEN_PERSONSEARCH = PROGRESSMSG + "008";
+    /** cliprgs009 - Opening property form... */
+    public static final String PROGRESS_MSG_OPEN_PROPERTY = PROGRESSMSG + "009";
+    /** cliprgs010 - Saving... */
+    public static final String PROGRESS_MSG_SAVING = PROGRESSMSG + "010";
+    /** cliprgs011 - Opening prior property selection form... */
+    public static final String PROGRESS_MSG_OPEN_PROPERTYLINK = PROGRESSMSG + "011";
+    /** cliprgs012 - Opening person form... */
+    public static final String PROGRESS_MSG_OPEN_PERSON = PROGRESSMSG + "012";
+    /** cliprgs013 - Calculating fee... */
+    public static final String PROGRESS_MSG_APP_CALCULATINGFEE = PROGRESSMSG + "013";
+    /** cliprgs014 - Validating... */
+    public static final String PROGRESS_MSG_APP_VALIDATING = PROGRESSMSG + "014";
+    /** cliprgs015 - Taking action on application... */
+    public static final String PROGRESS_MSG_APP_TAKE_ACTION = PROGRESSMSG + "015";
+    /** cliprgs016 - Opening document registration form... */
+    public static final String PROGRESS_MSG_OPEN_DOCREGISTRATION = PROGRESSMSG + "016";
+    /** cliprgs017 - Opening cadastre change form... */
+    public static final String PROGRESS_MSG_OPEN_CADASTRE_CHANGE = PROGRESSMSG + "017";
+    /** cliprgs018 - Searching applications... */
+    public static final String PROGRESS_MSG_APP_SEARCHING = PROGRESSMSG + "018";
+    /** cliprgs019 - Searching properties... */
+    public static final String PROGRESS_MSG_PROPERTY_SEARCHING = PROGRESSMSG + "019";
+    /** cliprgs020 - Searching documents... */
+    public static final String PROGRESS_MSG_DOCUMENT_SEARCHING = PROGRESSMSG + "020";
+    /** cliprgs021 - Searching persons... */
+    public static final String PROGRESS_MSG_PERSON_SEARCHING = PROGRESSMSG + "021";
+    /** cliprgs022 - Opening document... */
+    public static final String PROGRESS_MSG_DOCUMENT_OPENING = PROGRESSMSG + "022";
+    /** cliprgs023 - Getting list of documents... */
+    public static final String PROGRESS_MSG_DOCUMENT_GETTING_LIST = PROGRESSMSG + "023";
 }
