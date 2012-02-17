@@ -185,6 +185,20 @@ public class ClientMessage {
     public static final String CHECK_BEANNOTNULL_BRVALTARGETTYPE = CHECK + "059";
     public static final String CHECK_GENERICNULL_OBJECT = CHECK + "060";
     public static final String CHECK_GENERICDUPL_OBJECT = CHECK + "061";
+    /** clichck062 - Number of services should be greater than 0. */
+    public static final String CHECK_APP_SERVICES_NOT_EMPTY = CHECK + "062";
+    /** clichck063 - No contact person found. */
+    public static final String CHECK_APP_CONTACT_PERSON_NULL = CHECK + "063";
+    /** clichck064 - Fill in contact person address. */
+    public static final String CHECK_APP_CONTACT_PERSON_ADDRESS = CHECK + "064";
+    /** clichck065 - Fill in contact person name. */
+    public static final String CHECK_APP_CONTACT_PERSON_NAME = CHECK + "065";
+    /** clichck066 - Fill in contact person last name. */
+    public static final String CHECK_APP_CONTACT_PERSON_LASTNAME = CHECK + "066";
+    /** clichck067 - Numerator should be less or equal than denominator. */
+    public static final String CHECK_PROP_SHARE = CHECK + "067";
+    /** clichck068 - Enter ID document reference number. */
+    public static final String CHECK_PERSON_ID_DOC_NUMBER = CHECK + "068";
     
     // Application messages
     /** cliapp001 - Select document to attach digital copy. */
@@ -526,4 +540,11 @@ public class ClientMessage {
     public static final String PROGRESS_MSG_DOCUMENT_OPENING = PROGRESSMSG + "022";
     /** cliprgs023 - Getting list of documents... */
     public static final String PROGRESS_MSG_DOCUMENT_GETTING_LIST = PROGRESSMSG + "023";
+    /** cliprgs024 - Canceling service... */
+    public static final String PROGRESS_MSG_SERVICE_CANCELING = PROGRESSMSG + "024";
+    /** cliprgs025 - Completing service... */
+    public static final String PROGRESS_MSG_SERVICE_COMPLETING = PROGRESSMSG + "025";
+    /** cliprgs026 - Reverting service... */
+    public static final String PROGRESS_MSG_SERVICE_REVERTING = PROGRESSMSG + "026";
+    
 }
