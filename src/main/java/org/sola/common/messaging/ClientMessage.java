@@ -185,6 +185,10 @@ public class ClientMessage {
     public static final String CHECK_BEANNOTNULL_BRVALTARGETTYPE = CHECK + "059";
     public static final String CHECK_GENERICNULL_OBJECT = CHECK + "060";
     public static final String CHECK_GENERICDUPL_OBJECT = CHECK + "061";
+     /** clichck062 - from date cannot be null */
+    public static final String CHECK_NOTNULL_DATEFROM = CHECK + "062";
+      /** clichck063 - to date cannot be null */
+   public static final String CHECK_NOTNULL_DATETO = CHECK + "063";
     
     // Application messages
     /** cliapp001 - Select document to attach digital copy. */
