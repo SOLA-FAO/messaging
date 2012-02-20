@@ -199,6 +199,11 @@ public class ClientMessage {
     public static final String CHECK_PROP_SHARE = CHECK + "067";
     /** clichck068 - Enter ID document reference number. */
     public static final String CHECK_PERSON_ID_DOC_NUMBER = CHECK + "068";
+    /** clichck069 - Enter ID document reference number. */
+    public static final String CHECK_CHECK_NOTNULL_DATEFROM = CHECK + "069"; 
+   /** clichck070 - Enter ID document reference number. */
+    public static final String CHECK_CHECK_NOTNULL_DATETO = CHECK + "070"; 
+   
     
     // Application messages
     /** cliapp001 - Select document to attach digital copy. */
