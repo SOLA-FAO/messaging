@@ -114,6 +114,13 @@ public class GisMessage {
     public static final String PRINT  = GEOTOOLS + "34";
     public static final String PRINT_LAYOUT_NOT_SELECTED = GEOTOOLS + "35";
     public static final String PRINT_SCALE_NOT_CORRECT = GEOTOOLS + "36";
+    public static final String ADD_DIRECT_IMAGE_TOOLTIP = GEOTOOLS + "37";
+    public static final String ADD_DIRECT_IMAGE_ADD_FIRST_POINT = GEOTOOLS + "38";
+    public static final String ADD_DIRECT_IMAGE_ADD_SECOND_POINT = GEOTOOLS + "39";
+    public static final String ADD_DIRECT_IMAGE_LOAD_IMAGE_ERROR = GEOTOOLS + "40";
+    public static final String ADD_DIRECT_IMAGE_SECOND_POINT_ERROR = GEOTOOLS + "41";
+    public static final String REMOVE_DIRECT_IMAGE_TOOLTIP = GEOTOOLS + "42";
+    
     
     //CADASTRE CHANGE
     /** The point has to fall on an current node or to a line*/
