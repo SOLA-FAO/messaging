@@ -118,8 +118,9 @@ public class GisMessage {
     public static final String ADD_DIRECT_IMAGE_ADD_FIRST_POINT = GEOTOOLS + "38";
     public static final String ADD_DIRECT_IMAGE_ADD_SECOND_POINT = GEOTOOLS + "39";
     public static final String ADD_DIRECT_IMAGE_LOAD_IMAGE_ERROR = GEOTOOLS + "40";
-    public static final String ADD_DIRECT_IMAGE_SECOND_POINT_ERROR = GEOTOOLS + "41";
+    public static final String ADD_DIRECT_IMAGE_DEFINE_POINT_ERROR = GEOTOOLS + "41";
     public static final String REMOVE_DIRECT_IMAGE_TOOLTIP = GEOTOOLS + "42";
+    public static final String ADD_DIRECT_IMAGE_DEFINE_POINT_IN_IMAGE_ERROR = GEOTOOLS + "43";
     
     
     //CADASTRE CHANGE

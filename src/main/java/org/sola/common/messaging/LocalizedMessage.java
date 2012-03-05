@@ -121,7 +121,7 @@ public class LocalizedMessage {
     }
 
     public void setDialogOptions(String[] dialogOptions) {
-        this.dialogOptions = dialogOptions;
+        this.dialogOptions = dialogOptions.clone();
     }
 
     /** Overloaded setter that will covert a comma delimited string into a string array. */
