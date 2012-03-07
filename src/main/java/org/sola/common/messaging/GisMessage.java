@@ -196,6 +196,10 @@ public class GisMessage {
     /**Add a node.*/
     public static final String CADASTRE_TOOLTIP_ADD_NODE  = CADASTRE_REDEFINITION + "007";
 
+    /**Error while adding a cadastre object target.*/
+    public static final String CADASTRE_REDEFINITION_ADD_TARGET_ERROR  = 
+            CADASTRE_REDEFINITION + "008";
+
     /**Error while identifying the point of the target boundary.*/
     public static final String CADASTRE_BOUNDARY_ADD_POINT_ERROR  = CADASTRE_BOUNDARY + "001";
     
