@@ -125,6 +125,7 @@ public class GisMessage {
     public static final String ADD_DIRECT_IMAGE_DEFINE_ORIENTATION_POINT_2_IN_IMAGE= GEOTOOLS + "45";
     public static final String ADD_DIRECT_IMAGE_LOAD_IMAGE= GEOTOOLS + "46";
     public static final String PRINT_LAYOUT_GENERATION_ERROR = GEOTOOLS + "47";
+    public static final String MAP_SCALE_ERROR = GEOTOOLS + "48";
     
     //CADASTRE CHANGE
     /** The point has to fall on an current node or to a line*/
