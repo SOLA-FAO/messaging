@@ -332,11 +332,11 @@ public class ClientMessage {
     public static final String BAUNIT_RRR_NO_PEDING_CHANGES = BAUNIT + "002";
     /** clibaunit003 - Property not found.  */
     public static final String BAUNIT_NOT_FOUND = BAUNIT + "003";
-    /** clibaunit004 - Nothing is selected.  */
+    /** clibaunit004 - No rights and parcels are selected. Do you want to continue?  */
     public static final String BAUNIT_NOTHING_SELECTED = BAUNIT + "004";
     /** clibaunit005 - You have selected parcels, related to existing property. Make sure to make changes in the current property object.  */
     public static final String BAUNIT_EXISTING_PARCELS_SELECTED = BAUNIT + "005";
-    /** clibaunit006 - Do you want to link prior Property object? */
+    /** clibaunit006 - Do you want to bring forward current rights/restrictions? */
     public static final String BAUNIT_SELECT_EXISTING_PROPERTY = BAUNIT + "006";
     /** clibaunit007 - Select relation type.  */
     public static final String BAUNIT_SELECT_RELATION_TYPE = BAUNIT + "007";
@@ -344,7 +344,7 @@ public class ClientMessage {
     public static final String BAUNIT_WRONG_RELATION_TYPE = BAUNIT + "008";
     /** clibaunit009 - The Property object you have selected, already exists in the list of parent Properties.  */
     public static final String BAUNIT_HAS_SELECTED_PARENT_BA_UNIT = BAUNIT + "009";
-    /** clibaunit010 - Do you want to link more prior Property objects? */
+    /** clibaunit010 - Do you want to bring forward rights/restrictions from other property objects? */
     public static final String BAUNIT_SELECT_EXISTING_PROPERTY_AGAIN = BAUNIT + "010";
     /** clibaunit011 - You are about to terminate this Property.\n
      * The current state will be saved and Property marked for termination.\n
