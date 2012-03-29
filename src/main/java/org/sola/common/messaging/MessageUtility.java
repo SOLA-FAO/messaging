@@ -355,10 +355,13 @@ public class MessageUtility {
             }
 
         } else {
-            selectedButton = JOptionPane.showOptionDialog(null, message.formatMessage(errorNumber),
+            String formatedMessage = message.formatMessage(errorNumber);
+            String[] dialogOptions = message.getDialogOptions();
+            int optionPaneMessageType = getJOptionPaneMessageType(message);
+            selectedButton = JOptionPane.showOptionDialog(null, formatedMessage,
                     message.formatTitle(), getJOptionPaneOptionType(message),
-                    getJOptionPaneMessageType(message), null, message.getDialogOptions(),
-                    message.getDialogOptions()[0]);
+                    optionPaneMessageType, null, dialogOptions,
+                    dialogOptions[0]);
         }
         return selectedButton;
     }
