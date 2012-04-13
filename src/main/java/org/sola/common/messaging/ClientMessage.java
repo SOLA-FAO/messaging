@@ -413,6 +413,8 @@ public class ClientMessage {
      /** clisource002 -  This action will attach document to the transaction. Are you sure?  */
      public static final String  SOURCE_ATTACH_TRANSACTION_WARNING = SOURCE +  "002";
      
+     /** clisource003 -  Loading document on the server  */
+    public static final String  SOURCE_LOAD_DOC_ON_SERVER = SOURCE +  "003";
     
    // Validation messages 
     
