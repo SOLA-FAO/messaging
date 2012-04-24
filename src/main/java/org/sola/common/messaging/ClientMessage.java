@@ -564,5 +564,7 @@ public class ClientMessage {
     public static final String PROGRESS_MSG_SERVICE_REVERTING = PROGRESSMSG + "026";
     /** cliprgs027 - Opening document form... */
     public static final String PROGRESS_MSG_DOCUMENT_FORM_OPENING = PROGRESSMSG + "027";
+    /** cliprgs028 - Saving document... */
+    public static final String PROGRESS_MSG_DOCUMENT_SAVING = PROGRESSMSG + "028";
     
 }
