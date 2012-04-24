@@ -97,7 +97,11 @@ public class ClientMessage {
     public static final String GENERAL_LABELS_TERMINATE_AND_CLOSE = GENERAL + "019";
     /** clignrl020 - You have made some changes on the form. Do you want to save it before closing? */
     public static final String GENERAL_FORM_CHANGES_WARNING = GENERAL + "020";
-        
+    /** clignrl021 - New */
+    public static final String GENERAL_LABELS_NEW = GENERAL + "021";
+    /** clignrl022 - Document */
+    public static final String GENERAL_LABELS_DOCUMENT = GENERAL + "022";
+    
     // Service Messages
     /** cliserv001 - Unable to initialize the {0} service. The reason is: {1} */
     public static final String SERVICE_INITIALIZE = SERVICE + "001";
@@ -416,6 +420,9 @@ public class ClientMessage {
      /** clisource003 -  Loading document on the server  */
     public static final String  SOURCE_LOAD_DOC_ON_SERVER = SOURCE +  "003";
     
+    /** clisource004 -  Document has been saved successfully. */
+    public static final String  SOURCE_SAVED = SOURCE +  "004";
+    
    // Validation messages 
     
      /** clivldtn001 -  You have duplicated objects in the list */
@@ -555,5 +562,7 @@ public class ClientMessage {
     public static final String PROGRESS_MSG_SERVICE_COMPLETING = PROGRESSMSG + "025";
     /** cliprgs026 - Reverting service... */
     public static final String PROGRESS_MSG_SERVICE_REVERTING = PROGRESSMSG + "026";
+    /** cliprgs027 - Opening document form... */
+    public static final String PROGRESS_MSG_DOCUMENT_FORM_OPENING = PROGRESSMSG + "027";
     
 }
