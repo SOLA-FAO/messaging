@@ -65,6 +65,9 @@ public class GisMessage {
     /** gisgnrl007 -  gis.controlbundleforapplication.error.setup ControBundle for Application error setup*/
     public static final String GENERAL_CONTROLBUNDLEAPP_ERROR = GENERAL + "007";
    
+    /** gisgnrl008 - Layer: %s. No features could be retrieved. Source might be unavailable. */
+    public static final String GENERAL_RETRIEVE_FEATURES_ERROR = GENERAL + "008";
+
     // Info Tool    
    /** gisinfotool001 - Click to get information */
     public static final String INFOTOOL_CLICK = INFOTOOL + "001";
@@ -238,7 +241,7 @@ public class GisMessage {
     public static final String LEFT_PANEL_TAB_FIND_TITLE = LEFT_PANEL + "02";
     /* There is an error while searching.*/
     public static final String LEFT_PANEL_FIND_ERROR = LEFT_PANEL + "03";
- 
+  
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /** gistest001 - Unit Test Message */
     public static final String TEST001 = TEST + "001";
