@@ -423,6 +423,9 @@ public class ClientMessage {
     /** clisource004 -  Document has been saved successfully. */
     public static final String  SOURCE_SAVED = SOURCE +  "004";
     
+    /** clisource005 -  Document has been added. */
+    public static final String  SOURCE_ADDED = SOURCE +  "005";
+    
    // Validation messages 
     
      /** clivldtn001 -  You have duplicated objects in the list */
