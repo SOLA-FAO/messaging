@@ -300,8 +300,8 @@ public class ClientMessage {
     public static final String APPLICATION_ACTION_SUCCESS = APPLICATION + "037";
      /** cliapp038 - Opening application form... */
     public static final String APPLICATION_OPENING_FORM = APPLICATION + "038";
-     /** cliapp039 - You've made some changes on application. They will be saved before validation. Do you want to continue? */
-    public static final String APPLICATION_SAVE_BEFORE_VALIDATION = APPLICATION + "039";
+     /** cliapp039 - You've made some changes on the application. They will be saved before further action. Do you want to continue? */
+    public static final String APPLICATION_SAVE_BEFORE_ACTION = APPLICATION + "039";
    
     // Reports messages.
     /** clirpt001 - Report generation failed. Error details: {0} */
