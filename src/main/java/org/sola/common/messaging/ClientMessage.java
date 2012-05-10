@@ -377,6 +377,9 @@ public class ClientMessage {
     /** clierrs004 - Violation of business rules occurred. */
     public static final String ERR_BR_VIOLATION = GENERAL_ERRORS + "004";
     
+    /** clierrs005 - {0} Web-service is not initialized. */
+    public static final String GENERAL_ERRORS_WEBSERVICE_NOT_INITIALIZED = GENERAL_ERRORS + "005";
+    
     // General confirms
     /** cliconfirm001 - Are you sure you want to delete record? All data will be lost */
     public static final String CONFIRM_DELETE_RECORD = GENERAL_CONFIRM + "001";
