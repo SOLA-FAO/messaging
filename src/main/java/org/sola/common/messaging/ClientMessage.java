@@ -209,6 +209,8 @@ public class ClientMessage {
     public static final String CHECK_NOTNULL_DATETO = CHECK + "070"; 
    /** clichck071 - Registration date can't be greater than current date */
     public static final String CHECK_REGISTRATION_DATE = CHECK + "071"; 
+    /** clichck072 - Enter at least one owner. */
+    public static final String CHECK_SIZE_OWNERSLIST = CHECK + "072";
     
     // Application messages
     /** cliapp001 - Select document to attach digital copy. */
