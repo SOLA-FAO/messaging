@@ -312,6 +312,10 @@ public class ClientMessage {
     public static final String APPLICATION_OPENING_FORM = APPLICATION + "038";
      /** cliapp039 - You've made some changes on the application. They will be saved before further action. Do you want to continue? */
     public static final String APPLICATION_SAVE_BEFORE_ACTION = APPLICATION + "039";
+    
+     /** cliapp040 - You are adding new services to the list. Remember to pay the fee for new added service  */
+     public static final String APPLICATION_WARNING_ADDEDSERVICE = APPLICATION + "040";
+     
    
     // Reports messages.
     /** clirpt001 - Report generation failed. Error details: {0} */
