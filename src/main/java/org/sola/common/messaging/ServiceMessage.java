@@ -91,6 +91,11 @@ public class ServiceMessage {
     public static final String EXCEPTION_INSUFFICIENT_RIGHTS = EXCEPTION + "006";
     /** serexcp007 - Entity doesn't belong to the called EJB. */
     public static final String EXCEPTION_ENTITY_PACKAGE_VIOLATION = EXCEPTION + "007";
+    /** serexcp008 - Unable to initialize web service client for service {0}. Error details: {1} */
+    public static final String EXCEPTION_INITALIZE_WSCLIENT = EXCEPTION + "008";
+    /* serexcp009 - The username and password are incorrect. */
+    public static final String EXCEPTION_INVALID_SECURITY_HEADER = EXCEPTION + "009";
+
     
     // Business Rule Messages
     /** serrule001 - Business rule {0} does not exist.*/
