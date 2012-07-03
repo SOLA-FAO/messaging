@@ -217,8 +217,10 @@ public class ClientMessage {
     public static final String CHECK_INVALID_FAX = CHECK + "074";
     /** clichck075 - Invalid mobile. */
     public static final String CHECK_INVALID_MOBILE = CHECK + "075";
-    /** clichck076 - Invalid lenght. */
+    /** clichck076 - Invalid length. */
     public static final String CHECK_FIELD_INVALID_LENGTH = CHECK + "076";
+     /** clichck077 - Invalid length + parameters. */
+    public static final String CHECK_FIELD_INVALID_LENGTH_PAR = CHECK + "077";
  
     
     
