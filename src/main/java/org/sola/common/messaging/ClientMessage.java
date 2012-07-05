@@ -219,8 +219,37 @@ public class ClientMessage {
     public static final String CHECK_INVALID_MOBILE = CHECK + "075";
     /** clichck076 - Invalid length. */
     public static final String CHECK_FIELD_INVALID_LENGTH = CHECK + "076";
-     /** clichck077 - Invalid length + parameters. */
+    /** clichck077 - Invalid length + parameters. */
     public static final String CHECK_FIELD_INVALID_LENGTH_PAR = CHECK + "077";
+    /** clichck078 - Invalid length Source ref field. */
+    public static final String CHECK_FIELD_INVALID_LENGTH_SRCREF = CHECK + "078";
+    /** clichck079 - Invalid length first part field. */
+    public static final String CHECK_FIELD_INVALID_LENGTH_FIRSTPART = CHECK + "079";
+    /** clichck080 - Invalid length last part field. */
+    public static final String CHECK_FIELD_INVALID_LENGTH_LASTPART = CHECK + "080";
+    /** clichck081 - Invalid length notation field. */
+    public static final String CHECK_FIELD_INVALID_LENGTH_NOTATION = CHECK + "081";
+    /** clichck082 - Invalid length notation field. */
+    public static final String CHECK_FIELD_INVALID_LENGTH_MAIL = CHECK + "082";
+    /** clichck083 - Invalid length notation field. */
+    public static final String CHECK_FIELD_INVALID_LENGTH_PHONE = CHECK + "083";
+    /** clichck084 - Invalid length notation field. */
+    public static final String CHECK_FIELD_INVALID_LENGTH_MOBILE = CHECK + "084";
+    /** clichck085 - Invalid length notation field. */
+    public static final String CHECK_FIELD_INVALID_LENGTH_FAX = CHECK + "085";
+    /** clichck086 - Invalid length notation field. */
+    public static final String CHECK_FIELD_INVALID_LENGTH_FNAME = CHECK + "086";
+    /** clichck087 - Invalid length notation field. */
+    public static final String CHECK_FIELD_INVALID_LENGTH_FLAST = CHECK + "087";
+    /** clichck088 - Invalid length notation field. */
+    public static final String CHECK_FIELD_INVALID_LENGTH_ALIAS = CHECK + "088";
+    /** clichck089 - Invalid length address field. */
+    public static final String CHECK_PERSON_ADDRESS = CHECK + "089";
+    /** clichck089 - Invalid length name field. */
+    public static final String CHECK_FIELD_INVALID_LENGTH_NAME = CHECK + "090";
+    /** clichck089 - Invalid length last name field. */
+    public static final String CHECK_FIELD_INVALID_LENGTH_LASTNAME = CHECK + "091";
+    
  
     
     
