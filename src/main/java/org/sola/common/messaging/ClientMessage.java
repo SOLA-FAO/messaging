@@ -980,4 +980,10 @@ public class ClientMessage {
      * cliprgs028 - Saving document...
      */
     public static final String PROGRESS_MSG_DOCUMENT_SAVING = PROGRESSMSG + "028";
+        /**
+     * cliprgs030 - Searching {0}...
+     */
+    public static final String PROGRESS_MSG_MAP_SEARCHING = PROGRESSMSG + "030";
+    
+    
 }
