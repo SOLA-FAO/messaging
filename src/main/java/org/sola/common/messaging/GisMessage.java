@@ -67,12 +67,6 @@ public class GisMessage {
    
     /** gisgnrl008 - Layer: %s. No features could be retrieved. Source might be unavailable. */
     public static final String GENERAL_RETRIEVE_FEATURES_ERROR = GENERAL + "008";
-   /** gisgnrl010 - < 0.01 */
-    public static final String GENERAL_MIN_DISPLAY_SCALE = GENERAL + "010";
-    /** gisgnrl011 - Invalid scale */
-    public static final String GENERAL_INVALID_SCALE = GENERAL + "011";
-    /** gisgnrl012 - Scale: */
-    public static final String GENERAL_SCALE_LABEL = GENERAL + "012";
 
     // Info Tool    
    /** gisinfotool001 - Click to get information */
@@ -134,7 +128,12 @@ public class GisMessage {
     public static final String ADD_DIRECT_IMAGE_DEFINE_ORIENTATION_POINT_2_IN_IMAGE= GEOTOOLS + "45";
     public static final String ADD_DIRECT_IMAGE_LOAD_IMAGE= GEOTOOLS + "46";
     public static final String PRINT_LAYOUT_GENERATION_ERROR = GEOTOOLS + "47";
+    /** gisgeotools548 - Invalid scale */
     public static final String MAP_SCALE_ERROR = GEOTOOLS + "48";
+       /** gisgeotools549 - < 0.01 */
+    public static final String MIN_DISPLAY_SCALE = GEOTOOLS + "49";
+    /** gisgeotools550 - Scale: */
+    public static final String SCALE_LABEL = GEOTOOLS + "50";
     
     //CADASTRE CHANGE
     /** The point has to fall on an current node or to a line*/
