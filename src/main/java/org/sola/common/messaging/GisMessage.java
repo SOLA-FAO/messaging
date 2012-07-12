@@ -67,6 +67,12 @@ public class GisMessage {
    
     /** gisgnrl008 - Layer: %s. No features could be retrieved. Source might be unavailable. */
     public static final String GENERAL_RETRIEVE_FEATURES_ERROR = GENERAL + "008";
+   /** gisgnrl010 - < 0.01 */
+    public static final String GENERAL_MIN_DISPLAY_SCALE = GENERAL + "010";
+    /** gisgnrl011 - Invalid scale */
+    public static final String GENERAL_INVALID_SCALE = GENERAL + "011";
+    /** gisgnrl012 - Scale: */
+    public static final String GENERAL_SCALE_LABEL = GENERAL + "012";
 
     // Info Tool    
    /** gisinfotool001 - Click to get information */
