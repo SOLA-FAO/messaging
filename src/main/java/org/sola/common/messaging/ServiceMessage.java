@@ -95,6 +95,8 @@ public class ServiceMessage {
     public static final String EXCEPTION_INITALIZE_WSCLIENT = EXCEPTION + "008";
     /* serexcp009 - The username and password are incorrect. */
     public static final String EXCEPTION_INVALID_SECURITY_HEADER = EXCEPTION + "009";
+    /* serexcp010 - The file cannot be attached due to its size ({0}MB) */
+    public static final String EXCEPTION_FILE_TOO_BIG = EXCEPTION + "010";
 
     
     // Business Rule Messages
