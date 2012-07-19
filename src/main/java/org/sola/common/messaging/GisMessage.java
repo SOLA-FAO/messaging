@@ -134,6 +134,8 @@ public class GisMessage {
     public static final String MIN_DISPLAY_SCALE = GEOTOOLS + "49";
     /** gisgeotools550 - Scale: */
     public static final String SCALE_LABEL = GEOTOOLS + "50";
+    /** gisgeotools551 - Scale: */
+    public static final String FAILED_OPEN_FILE = GEOTOOLS + "51";
     
     //CADASTRE CHANGE
     /** The point has to fall on an current node or to a line*/

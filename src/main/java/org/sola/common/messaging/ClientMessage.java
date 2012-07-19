@@ -635,7 +635,7 @@ public class ClientMessage {
      */
     public static final String ERR_FAILED_CREATE_NEW_FILE = GENERAL_ERRORS + "001";
     /**
-     * clierrs002 - Can't open the file. {0}
+     * clierrs002 - The file {0} cannot be opened automatically.
      */
     public static final String ERR_FAILED_OPEN_FILE = GENERAL_ERRORS + "002";
     /**
@@ -980,10 +980,12 @@ public class ClientMessage {
      * cliprgs028 - Saving document...
      */
     public static final String PROGRESS_MSG_DOCUMENT_SAVING = PROGRESSMSG + "028";
-        /**
+    /**
      * cliprgs030 - Searching {0}...
      */
     public static final String PROGRESS_MSG_MAP_SEARCHING = PROGRESSMSG + "030";
-    
-    
+    /**
+     * cliprgs031 - Generating thumbnail...
+     */
+    public static final String PROGRESS_MSG_GENERATE_THUMBNAIL = PROGRESSMSG + "031";
 }
