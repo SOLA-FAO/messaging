@@ -186,7 +186,19 @@ public class GisMessage {
 
     public static final String CADASTRE_CHANGE_POINTS_SHOW  = CADASTRE_CHANGE + "022";
 
-    //Cadastre redefinition
+    /** Error while creating a new instance of a spatial bean.*/
+     public static final String CADASTRE_CHANGE_ERROR_INITIALIZE_NEW_OBJECT  = 
+             CADASTRE_CHANGE + "023";
+
+    /** Error while setting bean values.*/
+     public static final String CADASTRE_CHANGE_ERROR_SET_BEAN_VALUES  = 
+             CADASTRE_CHANGE + "024";
+
+    /** Error while getting bean values.*/
+     public static final String CADASTRE_CHANGE_ERROR_GET_BEAN_VALUES  = 
+             CADASTRE_CHANGE + "025";
+
+     //Cadastre redefinition
     /**Coordinates entered are not valid.*/
     public static final String CADASTRE_REDEFINITION_COORDS_NOT_VALID  = CADASTRE_REDEFINITION + "001";
 
