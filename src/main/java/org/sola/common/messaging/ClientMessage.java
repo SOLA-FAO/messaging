@@ -356,13 +356,19 @@ public class ClientMessage {
      */
     public static final String CHECK_PERSON_ADDRESS = CHECK + "089";
     /**
-     * clichck089 - Invalid length name field.
+     * clichck090 - Invalid length name field.
      */
     public static final String CHECK_FIELD_INVALID_LENGTH_NAME = CHECK + "090";
     /**
-     * clichck089 - Invalid length last name field.
+     * clichck091 - Invalid length last name field.
      */
     public static final String CHECK_FIELD_INVALID_LENGTH_LASTNAME = CHECK + "091";
+    
+    /**
+     * clichck092 - No item starting with {0} .
+     */
+    public static final String CHECK_NO_MATCHING_ITEM = CHECK + "092";
+    
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
