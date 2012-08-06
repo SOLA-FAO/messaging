@@ -629,6 +629,10 @@ public class ClientMessage {
      * clibaunit015 - Failed to save property.
      */
     public static final String BAUNIT_SAVE_FAILED = BAUNIT + "015";
+    /**
+     * clibaunit016 - The sum of parcels areas is "{0}". Do you want to save this value for area size?
+     */
+    public static final String BAUNIT_CONFIRM_AREA = BAUNIT + "016";
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}
