@@ -198,6 +198,10 @@ public class GisMessage {
      public static final String CADASTRE_CHANGE_ERROR_GET_BEAN_VALUES  = 
              CADASTRE_CHANGE + "025";
 
+    /** Save changes */
+     public static final String CADASTRE_CHANGE_TRANSACTION_SAVE  = 
+             CADASTRE_CHANGE + "026";
+
      //Cadastre redefinition
     /**Coordinates entered are not valid.*/
     public static final String CADASTRE_REDEFINITION_COORDS_NOT_VALID  = CADASTRE_REDEFINITION + "001";
