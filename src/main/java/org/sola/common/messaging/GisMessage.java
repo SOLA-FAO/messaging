@@ -264,6 +264,8 @@ public class GisMessage {
     public static final String LEFT_PANEL_TAB_FIND_TITLE = LEFT_PANEL + "02";
     /* There is an error while searching.*/
     public static final String LEFT_PANEL_FIND_ERROR = LEFT_PANEL + "03";
+    /* Documents */
+    public static final String LEFT_PANEL_TAB_DOCUMENTS_TITLE = LEFT_PANEL + "04";
   
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /** gistest001 - Unit Test Message */
