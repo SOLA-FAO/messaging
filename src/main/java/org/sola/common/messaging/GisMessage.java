@@ -49,6 +49,7 @@ public class GisMessage {
     private static final String CADASTRE_REDEFINITION = MSG_PREFIX + "_cadastre_redefinition_";
     private static final String CADASTRE_BOUNDARY = MSG_PREFIX + "_cadastre_boundary_";
     private static final String LEFT_PANEL = MSG_PREFIX + "_left_panel_";
+    private static final String IMPORT_FILE = MSG_PREFIX + "_import_file_";
    // General Messages
     /** gisgnrl001 - Error starting the service */
     public static final String GENERAL_ERROR_STARTING_SERVICE = GENERAL + "001";
@@ -266,7 +267,9 @@ public class GisMessage {
     public static final String LEFT_PANEL_FIND_ERROR = LEFT_PANEL + "03";
     /* Documents */
     public static final String LEFT_PANEL_TAB_DOCUMENTS_TITLE = LEFT_PANEL + "04";
-  
+    /* The selected document does not have any attachment.*/
+    public static final String IMPORT_FILE_DOCUMENT_DOES_NOT_HAVE_ATTACHMENT = IMPORT_FILE + "03";
+
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /** gistest001 - Unit Test Message */
     public static final String TEST001 = TEST + "001";
