@@ -373,6 +373,12 @@ public class ClientMessage {
      */
     public static final String CHECK_NO_MATCHING_ITEM = CHECK + "092";
     
+    
+     /**
+     * clichck093 - {0} value must be an integer .
+     */
+    public static final String CHECK_BAUNITAREA_INTEGER = CHECK + "093";
+    
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
