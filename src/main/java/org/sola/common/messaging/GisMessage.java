@@ -203,6 +203,15 @@ public class GisMessage {
      public static final String CADASTRE_CHANGE_TRANSACTION_SAVE  = 
              CADASTRE_CHANGE + "026";
 
+    /** New cadastre objects */
+     public static final String CADASTRE_CHANGE_FORM_NEW_OBJECTS_TITLE  = 
+             CADASTRE_CHANGE + "027";
+
+    /** Survey points */
+     public static final String CADASTRE_CHANGE_FORM_SURVEYPOINT_TITLE  = 
+             CADASTRE_CHANGE + "028";
+
+     
      //Cadastre redefinition
     /**Coordinates entered are not valid.*/
     public static final String CADASTRE_REDEFINITION_COORDS_NOT_VALID  = CADASTRE_REDEFINITION + "001";
