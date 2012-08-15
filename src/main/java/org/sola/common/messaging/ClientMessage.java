@@ -136,6 +136,10 @@ public class ClientMessage {
      * clignrl022 - Document
      */
     public static final String GENERAL_LABELS_DOCUMENT = GENERAL + "022";
+    /**
+     * clignrl023 - refresh Dashboard
+     */
+    public static final String GENERAL_BACK_TO_DASHBOARD = GENERAL + "023";
     // Service Messages
     /**
      * cliserv001 - Unable to initialize the {0} service. The reason is: {1}
@@ -368,6 +372,12 @@ public class ClientMessage {
      * clichck092 - No item starting with {0} .
      */
     public static final String CHECK_NO_MATCHING_ITEM = CHECK + "092";
+    
+    
+     /**
+     * clichck093 - {0} value must be an integer .
+     */
+    public static final String CHECK_BAUNITAREA_INTEGER = CHECK + "093";
     
     // Application messages
     /**
