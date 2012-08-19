@@ -545,6 +545,11 @@ public class ClientMessage {
      * service
      */
     public static final String APPLICATION_WARNING_ADDEDSERVICE = APPLICATION + "040";
+    /**
+     * cliapp041 - Application not found.
+     */
+    public static final String APPLICATION_NOT_FOUND = APPLICATION + "041";
+    
     // Reports messages.
     /**
      * clirpt001 - Report generation failed. Error details: {0}
@@ -744,6 +749,10 @@ public class ClientMessage {
     public static final String SOURCE_ATTORNEY_NAME_NOT_NULL = SOURCE + "008";
     /** clisource009 - Person name shouldn't be empty. */
     public static final String SOURCE_PERSON_NAME_NOT_NULL = SOURCE + "009";
+    /**
+     * clisource010 - Document not found.
+     */
+    public static final String SOURCE_NOT_FOUND = SOURCE + "010";
     
     // Validation messages 
     /**
@@ -1019,4 +1028,12 @@ public class ClientMessage {
      * cliprgs032 - Searching power of attorney...
      */
     public static final String PROGRESS_MSG_POWER_OF_ATTORNEY_SEARCHING = PROGRESSMSG + "032";
+    /**
+     * cliprgs033 - Getting application...
+     */
+    public static final String PROGRESS_MSG_APP_GETTING = PROGRESSMSG + "033";
+    /**
+     * cliprgs034 - Getting document...
+     */
+    public static final String PROGRESS_MSG_DOCUMENT_GETTING = PROGRESSMSG + "034";
 }
