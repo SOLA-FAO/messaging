@@ -654,6 +654,13 @@ public class ClientMessage {
      * clibaunit016 - The sum of parcels areas is "{0}". Do you want to save this value for area size?
      */
     public static final String BAUNIT_CONFIRM_AREA = BAUNIT + "016";
+    
+    
+    /**
+     * clibaunit017 - There are current RRRs that will be canceled.\n Do you want to proceed?
+     */
+    public static final String BAUNIT_CURRENT_RRR_EXIST_CONFIRM_TERMINATION = BAUNIT + "017";
+    
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}
