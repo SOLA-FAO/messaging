@@ -668,6 +668,11 @@ public class ClientMessage {
      */
     public static final String BAUNIT_CURRENT_RRR_EXIST_CONFIRM_TERMINATION = BAUNIT + "017";
     
+     /**
+     * clibaunit018 - Parcel already exists and assigned to another Property please use selection tool for adding existing parcels
+     */
+    public static final String BAUNIT_PARCEL_EXISTS = BAUNIT + "018";
+   
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}
