@@ -556,7 +556,10 @@ public class ClientMessage {
      * cliapp041 - Application not found.
      */
     public static final String APPLICATION_NOT_FOUND = APPLICATION + "041";
-    
+     /**
+     * cliapp042 - Application service \"{0}\", has been successfully started.
+     */
+    public static final String APPLICATION_SERVICE_START_SUCCESS = APPLICATION + "042";   
     // Reports messages.
     /**
      * clirpt001 - Report generation failed. Error details: {0}
@@ -1055,4 +1058,8 @@ public class ClientMessage {
      * cliprgs034 - Getting document...
      */
     public static final String PROGRESS_MSG_DOCUMENT_GETTING = PROGRESSMSG + "034";
+    /**
+     * cliprgs035 - Starting service...
+     */
+    public static final String PROGRESS_MSG_SERVICE_STARTING = PROGRESSMSG + "035";
 }

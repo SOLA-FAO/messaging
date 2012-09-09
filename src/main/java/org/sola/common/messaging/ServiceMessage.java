@@ -87,9 +87,9 @@ public class ServiceMessage {
     public static final String EXCEPTION_AUTHENTICATION_FAILED = EXCEPTION + "004";
     /** serexcp005 - Unable to connect to the service at {0}. Error details: {1} */
     public static final String EXCEPTION_SERVICE_CONNECTION = EXCEPTION + "005";
-    /** serexcp006 - You don't have enough rights to access this function. */
+    /** serexcp006 - You do not have enough rights to access this function. */
     public static final String EXCEPTION_INSUFFICIENT_RIGHTS = EXCEPTION + "006";
-    /** serexcp007 - Entity doesn't belong to the called EJB. */
+    /** serexcp007 - Entity does not belong to the called EJB. */
     public static final String EXCEPTION_ENTITY_PACKAGE_VIOLATION = EXCEPTION + "007";
     /** serexcp008 - Unable to initialize web service client for service {0}. Error details: {1} */
     public static final String EXCEPTION_INITALIZE_WSCLIENT = EXCEPTION + "008";
