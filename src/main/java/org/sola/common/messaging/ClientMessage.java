@@ -378,7 +378,7 @@ public class ClientMessage {
      /**
      * clichck093 - {0} value must be an integer .
      */
-    public static final String CHECK_BAUNITAREA_INTEGER = CHECK + "093";
+    public static final String CHECK_BAUNITAREA_VALUE = CHECK + "093";
     
      /**
      * clichck094 - Current password not correct.
