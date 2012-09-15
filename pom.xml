@@ -5,12 +5,12 @@
     <parent>
         <artifactId>sola-main</artifactId>
         <groupId>org.sola</groupId>
-        <version>1.1.120915</version>
+        <version>1.2-SNAPSHOT</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
     <groupId>org.sola.common</groupId>
     <artifactId>sola-messaging</artifactId>
-    <version>1.1.120915</version>
+    <version>1.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Common Messaging</name>
