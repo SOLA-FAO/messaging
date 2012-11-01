@@ -47,6 +47,7 @@ public class ClientMessage {
     private static final String ADMIN = MSG_PREFIX + "admin";
     private static final String BR = MSG_PREFIX + "br";
     private static final String PROGRESSMSG = MSG_PREFIX + "prgs";
+    private static final String BULK_OPERATIONS = MSG_PREFIX + "_bulk_operations_";
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /**
      * clitest001 - Unit Test Message
@@ -1067,4 +1068,15 @@ public class ClientMessage {
      * cliprgs035 - Starting service...
      */
     public static final String PROGRESS_MSG_SERVICE_STARTING = PROGRESSMSG + "035";
+
+    /**
+     * cliprgs036 - Starting spatial object load operation...
+     */
+    public static final String PROGRESS_MSG_SPATIAL_OBJECT_LOAD_STARTING = PROGRESSMSG + "036";
+
+    /**
+     * cli_bulk_operations_001 - The destination attribute already exist! 
+     * You can remove it before adding it again.
+     */
+    public static final String BULK_OPERATIONS_DESTINATION_ATTRIBUTE_EXISTS = BULK_OPERATIONS + "001";
 }
