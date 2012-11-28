@@ -386,7 +386,16 @@ public class ClientMessage {
      */
     public static final String CHECK_CURRENTPSSWD_NOTMATCH = CHECK + "094";
     
+     /**
+     * clichck095 - Source is not present.
+     */
+    public static final String CHECK_BULK_OPERATION_SOURCE_ISNULL = CHECK + "095";
     
+     /**
+     * clichck096 - Destination is not present.
+     */
+    public static final String CHECK_BULK_OPERATION_DESTINATION_ISNULL = CHECK + "096";
+
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
