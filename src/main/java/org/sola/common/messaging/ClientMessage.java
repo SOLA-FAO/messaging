@@ -387,6 +387,12 @@ public class ClientMessage {
     public static final String CHECK_CURRENTPSSWD_NOTMATCH = CHECK + "094";
     
     
+     /**
+     * clichck095 - Select a location
+     */
+    public static final String CHECK_SELECT_LOCATION = CHECK + "095";
+    
+    
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
