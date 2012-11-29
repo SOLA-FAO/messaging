@@ -386,11 +386,21 @@ public class ClientMessage {
      */
     public static final String CHECK_CURRENTPSSWD_NOTMATCH = CHECK + "094";
     
+     /**
+     * clichck095 - Source is not present.
+     */
+    public static final String CHECK_BULK_OPERATION_SOURCE_ISNULL = CHECK + "095";
     
      /**
-     * clichck095 - Select a location
+     * clichck096 - Destination is not present.
      */
-    public static final String CHECK_SELECT_LOCATION = CHECK + "095";
+    public static final String CHECK_BULK_OPERATION_DESTINATION_ISNULL = CHECK + "096";
+     
+     /**
+     * clichck097 - Select a location
+     */
+    public static final String CHECK_SELECT_LOCATION = CHECK + "097";
+    
     
     
     // Application messages
