@@ -1,26 +1,30 @@
 /**
  * ******************************************************************************************
- * Copyright (C) 2012 - Food and Agriculture Organization of the United Nations (FAO). All rights
- * reserved.
+ * Copyright (C) 2012 - Food and Agriculture Organization of the United Nations
+ * (FAO). All rights reserved.
  *
- * Redistribution and use in source and binary forms, with or without modification, are permitted
- * provided that the following conditions are met:
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
  *
- * 1. Redistributions of source code must retain the above copyright notice,this list of conditions
- * and the following disclaimer. 2. Redistributions in binary form must reproduce the above
- * copyright notice,this list of conditions and the following disclaimer in the documentation and/or
- * other materials provided with the distribution. 3. Neither the name of FAO nor the names of its
- * contributors may be used to endorse or promote products derived from this software without
- * specific prior written permission.
+ * 1. Redistributions of source code must retain the above copyright notice,this
+ * list of conditions and the following disclaimer. 2. Redistributions in binary
+ * form must reproduce the above copyright notice,this list of conditions and
+ * the following disclaimer in the documentation and/or other materials provided
+ * with the distribution. 3. Neither the name of FAO nor the names of its
+ * contributors may be used to endorse or promote products derived from this
+ * software without specific prior written permission.
  *
- * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR
- * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
- * FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR
- * CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
- * DAMAGES (INCLUDING, BUT NOT LIMITED TO,PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
- * WHETHER IN CONTRACT,STRICT LIABILITY,OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY
- * WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+ * LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,PROCUREMENT OF
+ * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ * CONTRACT,STRICT LIABILITY,OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+ * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ * POSSIBILITY OF SUCH DAMAGE.
  * *********************************************************************************************
  */
 package org.sola.common.messaging;
@@ -64,7 +68,8 @@ public class ClientMessage {
      */
     public static final String GENERAL_UPDATE_LANG = GENERAL + "002";
     /**
-     * clignrl003 - There are {0} running tasks currently. Please wait until finishing.
+     * clignrl003 - There are {0} running tasks currently. Please wait until
+     * finishing.
      */
     public static final String GENERAL_ACTIVE_TASKS_EXIST = GENERAL + "003";
     /**
@@ -126,7 +131,8 @@ public class ClientMessage {
      */
     public static final String GENERAL_LABELS_TERMINATE_AND_CLOSE = GENERAL + "019";
     /**
-     * clignrl020 - You have made some changes on the form. Do you want to save it before closing?
+     * clignrl020 - You have made some changes on the form. Do you want to save
+     * it before closing?
      */
     public static final String GENERAL_FORM_CHANGES_WARNING = GENERAL + "020";
     /**
@@ -161,17 +167,18 @@ public class ClientMessage {
     public static final String SEARCH_SELECT_APPLICATION = SEARCH + "003";
     // Check / Validation Messages
     /**
-     * clichck001 - The selected application cannot be assigned or unassigned until its fees are
-     * paid.
+     * clichck001 - The selected application cannot be assigned or unassigned
+     * until its fees are paid.
      */
     public static final String CHECK_FEES_NOT_PAID = CHECK + "001";
     /**
-     * clichck002 - The selected application cannot have a receipt printed until its fees are paid.
+     * clichck002 - The selected application cannot have a receipt printed until
+     * its fees are paid.
      */
     public static final String CHECK_FEES_NOT_PAID_RECEIPT = CHECK + "002";
     /**
-     * clichck003 - The selected application cannot have a receipt printed until it is lodged and
-     * its fees are paid.
+     * clichck003 - The selected application cannot have a receipt printed until
+     * it is lodged and its fees are paid.
      */
     public static final String CHECK_NOT_LODGED_RECEIPT = CHECK + "003";
     /**
@@ -190,8 +197,7 @@ public class ClientMessage {
      * clichck007 - cannot be null
      */
     public static final String CHECK_NOTNULL_FIELDS = CHECK + "007";
-    
-  // validation hibernate messages 
+    // validation hibernate messages 
     /**
      * clichck008 - name cannot be null
      */
@@ -369,40 +375,34 @@ public class ClientMessage {
      * clichck091 - Invalid length last name field.
      */
     public static final String CHECK_FIELD_INVALID_LENGTH_LASTNAME = CHECK + "091";
-    
     /**
      * clichck092 - No item starting with {0} .
      */
     public static final String CHECK_NO_MATCHING_ITEM = CHECK + "092";
-    
-    
-     /**
+    /**
      * clichck093 - {0} value must be an integer .
      */
     public static final String CHECK_BAUNITAREA_VALUE = CHECK + "093";
-    
-     /**
+    /**
      * clichck094 - Current password not correct.
      */
     public static final String CHECK_CURRENTPSSWD_NOTMATCH = CHECK + "094";
-    
-     /**
+    /**
      * clichck095 - Source is not present.
      */
     public static final String CHECK_BULK_OPERATION_SOURCE_ISNULL = CHECK + "095";
-    
-     /**
+    /**
      * clichck096 - Destination is not present.
      */
     public static final String CHECK_BULK_OPERATION_DESTINATION_ISNULL = CHECK + "096";
-     
-     /**
+    /**
      * clichck097 - Select a location
      */
     public static final String CHECK_SELECT_LOCATION = CHECK + "097";
-    
-    
-    
+    /**
+     * clichck098 - From date can't be greater than To date
+     */
+    public static final String CHECK_FROM_TO_DATE = CHECK + "098";
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
@@ -413,7 +413,8 @@ public class ClientMessage {
      */
     public static final String APPLICATION_CONFIRM_DOCUMENT_ATTACHMENT_REMOVAL = APPLICATION + "002";
     /**
-     * cliapp003 - Property with ID = {0} has the following incomplete applications: {1}
+     * cliapp003 - Property with ID = {0} has the following incomplete
+     * applications: {1}
      */
     public static final String APPLICATION_PROPERTY_HAS_INCOMPLETE_APPLICATIONS = APPLICATION + "003";
     /**
@@ -421,11 +422,13 @@ public class ClientMessage {
      */
     public static final String APPLICATION_SAVE_CONFIRM = APPLICATION + "004";
     /**
-     * cliapp005 - You haven't supplied all required documents. Do you want to proceed anyway?
+     * cliapp005 - You haven't supplied all required documents. Do you want to
+     * proceed anyway?
      */
     public static final String APPLICATION_NOTALL_DOCUMENT_REQUIRED = APPLICATION + "005";
     /**
-     * cliapp006 - You should supply at least {0} property object(s). Do you want to proceed anyway?
+     * cliapp006 - You should supply at least {0} property object(s). Do you
+     * want to proceed anyway?
      */
     public static final String APPLICATION_ATLEAST_PROPERTY_REQUIRED = APPLICATION + "006";
     /**
@@ -477,8 +480,8 @@ public class ClientMessage {
      */
     public static final String APPLICATION_PROPERTY_LIST_EMPTY = APPLICATION + "018";
     /**
-     * cliapp019 - You are about to take action \"{0}\" against application, no further changes will
-     * be possible. Are you sure?
+     * cliapp019 - You are about to take action \"{0}\" against application, no
+     * further changes will be possible. Are you sure?
      */
     public static final String APPLICATION_ACTION_WARNING_STRONG = APPLICATION + "019";
     /**
@@ -490,8 +493,8 @@ public class ClientMessage {
      */
     public static final String APPLICATION_APPROVE_SUCCESS = APPLICATION + "021";
     /**
-     * cliapp022 - You are about to reject application, no further changes will be possible. Are you
-     * sure?
+     * cliapp022 - You are about to reject application, no further changes will
+     * be possible. Are you sure?
      */
     public static final String APPLICATION_REJECT_WARNING = APPLICATION + "022";
     /**
@@ -515,8 +518,8 @@ public class ClientMessage {
      */
     public static final String APPLICATION_SERVICE_COMPLETE_SUCCESS = APPLICATION + "027";
     /**
-     * cliapp028 - You are about to cancel application service \"{0}\", no further changes will be
-     * possible. Are you sure?
+     * cliapp028 - You are about to cancel application service \"{0}\", no
+     * further changes will be possible. Are you sure?
      */
     public static final String APPLICATION_SERVICE_CANCEL_WARNING = APPLICATION + "028";
     /**
@@ -528,7 +531,8 @@ public class ClientMessage {
      */
     public static final String APPLICATION_SERVICE_CANCEL_SUCCESS = APPLICATION + "030";
     /**
-     * cliapp031 - You are about to revert \"{0}\" service to the pending state. Are you sure?
+     * cliapp031 - You are about to revert \"{0}\" service to the pending state.
+     * Are you sure?
      */
     public static final String APPLICATION_SERVICE_REVERT_WARNING = APPLICATION + "031";
     /**
@@ -540,7 +544,8 @@ public class ClientMessage {
      */
     public static final String APPLICATION_SERVICE_REVERT_SUCCESS = APPLICATION + "033";
     /**
-     * cliapp034 - Application has critical violations. Fix them first, to continue.
+     * cliapp034 - Application has critical violations. Fix them first, to
+     * continue.
      */
     public static final String APPLICATION_HAS_CRITICAL_VIOLATIONS = APPLICATION + "034";
     /**
@@ -548,7 +553,8 @@ public class ClientMessage {
      */
     public static final String APPLICATION_ALREADYSELECTED_SERVICE = APPLICATION + "035";
     /**
-     * cliapp036 - You are about to take action \"{0}\" against application. Are you sure?
+     * cliapp036 - You are about to take action \"{0}\" against application. Are
+     * you sure?
      */
     public static final String APPLICATION_ACTION_WARNING_SOFT = APPLICATION + "036";
     /**
@@ -560,23 +566,23 @@ public class ClientMessage {
      */
     public static final String APPLICATION_OPENING_FORM = APPLICATION + "038";
     /**
-     * cliapp039 - You've made some changes on the application. They will be saved before further
-     * action. Do you want to continue?
+     * cliapp039 - You've made some changes on the application. They will be
+     * saved before further action. Do you want to continue?
      */
     public static final String APPLICATION_SAVE_BEFORE_ACTION = APPLICATION + "039";
     /**
-     * cliapp040 - You are adding new services to the list. Remember to pay the fee for new added
-     * service
+     * cliapp040 - You are adding new services to the list. Remember to pay the
+     * fee for new added service
      */
     public static final String APPLICATION_WARNING_ADDEDSERVICE = APPLICATION + "040";
     /**
      * cliapp041 - Application not found.
      */
     public static final String APPLICATION_NOT_FOUND = APPLICATION + "041";
-     /**
+    /**
      * cliapp042 - Application service \"{0}\", has been successfully started.
      */
-    public static final String APPLICATION_SERVICE_START_SUCCESS = APPLICATION + "042";   
+    public static final String APPLICATION_SERVICE_START_SUCCESS = APPLICATION + "042";
     // Reports messages.
     /**
      * clirpt001 - Report generation failed. Error details: {0}
@@ -600,8 +606,8 @@ public class ClientMessage {
      */
     public static final String ARCHIVE_FILE_DELETED = ARCHIVE + "004";
     /**
-     * cliarch005 - You are going to delete file from the shared server folder. Do you want to
-     * proceed?
+     * cliarch005 - You are going to delete file from the shared server folder.
+     * Do you want to proceed?
      */
     public static final String ARCHIVE_CONFIRM_FILE_DELETION = ARCHIVE + "005";
     /**
@@ -618,7 +624,8 @@ public class ClientMessage {
      */
     public static final String BAUNIT_SELECT_PARCEL = BAUNIT + "001";
     /**
-     * clibaunit002 - Selected right doesn't have pending changes and can't be edited.
+     * clibaunit002 - Selected right doesn't have pending changes and can't be
+     * edited.
      */
     public static final String BAUNIT_RRR_NO_PEDING_CHANGES = BAUNIT + "002";
     /**
@@ -626,12 +633,13 @@ public class ClientMessage {
      */
     public static final String BAUNIT_NOT_FOUND = BAUNIT + "003";
     /**
-     * clibaunit004 - No rights and parcels are selected. Do you want to continue?
+     * clibaunit004 - No rights and parcels are selected. Do you want to
+     * continue?
      */
     public static final String BAUNIT_NOTHING_SELECTED = BAUNIT + "004";
     /**
-     * clibaunit005 - You have selected parcels, related to existing property. Make sure to make
-     * changes in the current property object.
+     * clibaunit005 - You have selected parcels, related to existing property.
+     * Make sure to make changes in the current property object.
      */
     public static final String BAUNIT_EXISTING_PARCELS_SELECTED = BAUNIT + "005";
     /**
@@ -643,22 +651,24 @@ public class ClientMessage {
      */
     public static final String BAUNIT_SELECT_RELATION_TYPE = BAUNIT + "007";
     /**
-     * clibaunit008 - Relation type you have selected, should be the same as on existing parent
-     * Property list.
+     * clibaunit008 - Relation type you have selected, should be the same as on
+     * existing parent Property list.
      */
     public static final String BAUNIT_WRONG_RELATION_TYPE = BAUNIT + "008";
     /**
-     * clibaunit009 - The Property object you have selected, already exists in the list of parent
-     * Properties.
+     * clibaunit009 - The Property object you have selected, already exists in
+     * the list of parent Properties.
      */
     public static final String BAUNIT_HAS_SELECTED_PARENT_BA_UNIT = BAUNIT + "009";
     /**
-     * clibaunit010 - Do you want to bring forward rights/restrictions from other property objects?
+     * clibaunit010 - Do you want to bring forward rights/restrictions from
+     * other property objects?
      */
     public static final String BAUNIT_SELECT_EXISTING_PROPERTY_AGAIN = BAUNIT + "010";
     /**
-     * clibaunit011 - You are about to terminate this Property.\n The current state will be saved
-     * and Property marked for termination.\n Do you want to proceed?
+     * clibaunit011 - You are about to terminate this Property.\n The current
+     * state will be saved and Property marked for termination.\n Do you want to
+     * proceed?
      */
     public static final String BAUNIT_CONFIRM_TERMINATION = BAUNIT + "011";
     /**
@@ -678,21 +688,20 @@ public class ClientMessage {
      */
     public static final String BAUNIT_SAVE_FAILED = BAUNIT + "015";
     /**
-     * clibaunit016 - The sum of parcels areas is "{0}". Do you want to save this value for area size?
+     * clibaunit016 - The sum of parcels areas is "{0}". Do you want to save
+     * this value for area size?
      */
     public static final String BAUNIT_CONFIRM_AREA = BAUNIT + "016";
-    
-    
     /**
-     * clibaunit017 - There are current RRRs that will be canceled.\n Do you want to proceed?
+     * clibaunit017 - There are current RRRs that will be canceled.\n Do you
+     * want to proceed?
      */
     public static final String BAUNIT_CURRENT_RRR_EXIST_CONFIRM_TERMINATION = BAUNIT + "017";
-    
-     /**
-     * clibaunit018 - Parcel already exists and assigned to another Property please use selection tool for adding existing parcels
+    /**
+     * clibaunit018 - Parcel already exists and assigned to another Property
+     * please use selection tool for adding existing parcels
      */
     public static final String BAUNIT_PARCEL_EXISTS = BAUNIT + "018";
-   
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}
@@ -716,12 +725,13 @@ public class ClientMessage {
     public static final String GENERAL_ERRORS_WEBSERVICE_NOT_INITIALIZED = GENERAL_ERRORS + "005";
     // General confirms
     /**
-     * cliconfirm001 - Are you sure you want to delete record? All data will be lost
+     * cliconfirm001 - Are you sure you want to delete record? All data will be
+     * lost
      */
     public static final String CONFIRM_DELETE_RECORD = GENERAL_CONFIRM + "001";
-    
     /**
-     * cliconfirm002 - You are about changing your password. The system will be closed. Do you want to proceed?
+     * cliconfirm002 - You are about changing your password. The system will be
+     * closed. Do you want to proceed?
      */
     public static final String CONFIRM_SYSTEM_WILL_BE_CLOSED = GENERAL_CONFIRM + "002";
     // Help messages
@@ -764,11 +774,13 @@ public class ClientMessage {
     public static final String PARTY_CREATED = PARTY + "003";
     // Source messages
     /**
-     * clisource001 - This action will detach document from the transaction. Are you sure?
+     * clisource001 - This action will detach document from the transaction. Are
+     * you sure?
      */
     public static final String SOURCE_DETACH_TRANSACTION_WARNING = SOURCE + "001";
     /**
-     * clisource002 - This action will attach document to the transaction. Are you sure?
+     * clisource002 - This action will attach document to the transaction. Are
+     * you sure?
      */
     public static final String SOURCE_ATTACH_TRANSACTION_WARNING = SOURCE + "002";
     /**
@@ -787,17 +799,27 @@ public class ClientMessage {
      * clisource006 - The document could not be retrieved for display.
      */
     public static final String SOURCE_NO_DOCUMENT = SOURCE + "006";
-    /** clisource007 - Document shouldn't be null. */
+    /**
+     * clisource007 - Document shouldn't be null.
+     */
     public static final String SOURCE_MUST_BE_NOT_NULL = SOURCE + "007";
-    /** clisource008 - Attorney name shouldn't be empty. */
+    /**
+     * clisource008 - Attorney name shouldn't be empty.
+     */
     public static final String SOURCE_ATTORNEY_NAME_NOT_NULL = SOURCE + "008";
-    /** clisource009 - Person name shouldn't be empty. */
+    /**
+     * clisource009 - Person name shouldn't be empty.
+     */
     public static final String SOURCE_PERSON_NAME_NOT_NULL = SOURCE + "009";
     /**
      * clisource010 - Document not found.
      */
     public static final String SOURCE_NOT_FOUND = SOURCE + "010";
-    
+    /**
+     * clisource011 - Pdf file {0} has been generated and saved into archive
+     *
+     */
+    public static final String SOURCE_SYS_REP_GENERATED = SOURCE + "011";
     // Validation messages 
     /**
      * clivldtn001 - You have duplicated objects in the list
@@ -829,13 +851,13 @@ public class ClientMessage {
     public static final String VALIDATION_MIN_DEN = VALIDATION + "007";
     // BR messages
     /**
-     * clibr001 - For selected target type \"Service moment\" and \"Application moment\" should be
-     * empty.
+     * clibr001 - For selected target type \"Service moment\" and \"Application
+     * moment\" should be empty.
      */
     public static final String BR_REGISTRATION_MOMENT_VALIDATION = BR + "001";
     /**
-     * clibr002 - For selected target type \"Service moment\" and \"Registration moment\" should be
-     * empty.
+     * clibr002 - For selected target type \"Service moment\" and \"Registration
+     * moment\" should be empty.
      */
     public static final String BR_APPLICATION_MOMENT_VALIDATION = BR + "002";
     /**
@@ -843,8 +865,8 @@ public class ClientMessage {
      */
     public static final String BR_RRR_TYPE_VALIDATION = BR + "003";
     /**
-     * clibr004 - For selected target type \"Application moment\" and \"Registration moment\" should
-     * be empty.
+     * clibr004 - For selected target type \"Application moment\" and
+     * \"Registration moment\" should be empty.
      */
     public static final String BR_SERVICE_MOMENT_VALIDATION = BR + "004";
     /**
@@ -853,8 +875,8 @@ public class ClientMessage {
     public static final String BR_REQUEST_TYPE_VALIDATION = BR + "005";
     // Admin messages
     /**
-     * cliadmin001 - Are you sure you want to delete group? All users included in the group will
-     * lose access rights, assigned to this group.
+     * cliadmin001 - Are you sure you want to delete group? All users included
+     * in the group will lose access rights, assigned to this group.
      */
     public static final String ADMIN_CONFIRM_DELETE_GROUP = ADMIN + "001";
     /**
@@ -866,8 +888,8 @@ public class ClientMessage {
      */
     public static final String ADMIN_ROLE_SAVED = ADMIN + "003";
     /**
-     * cliadmin004 - Are you sure you want to delete role? All groups having this role will lose
-     * related access rights.
+     * cliadmin004 - Are you sure you want to delete role? All groups having
+     * this role will lose related access rights.
      */
     public static final String ADMIN_CONFIRM_DELETE_ROLE = ADMIN + "004";
     /**
@@ -915,7 +937,8 @@ public class ClientMessage {
      */
     public static final String ADMIN_REFDATA_CREATED = ADMIN + "015";
     /**
-     * cliadmin016 - Are you sure you want to delete \"{0}\"?. It might affect data in other tables.
+     * cliadmin016 - Are you sure you want to delete \"{0}\"?. It might affect
+     * data in other tables.
      */
     public static final String ADMIN_CONFIRM_DELETE_REFDATA = ADMIN + "016";
     /**
@@ -939,8 +962,8 @@ public class ClientMessage {
      */
     public static final String ADMIN_CONFIRM_DELETE_BR = ADMIN + "021";
     /**
-     * cliadmin022 - There are business rule validations dependent on the current object. Remove
-     * them first before deleting object.
+     * cliadmin022 - There are business rule validations dependent on the
+     * current object. Remove them first before deleting object.
      */
     public static final String ADMIN_BR_REMOVE_VALIDATIONS = ADMIN + "022";
     /**
@@ -1084,15 +1107,13 @@ public class ClientMessage {
      * cliprgs035 - Starting service...
      */
     public static final String PROGRESS_MSG_SERVICE_STARTING = PROGRESSMSG + "035";
-
     /**
      * cliprgs036 - Starting spatial object load operation...
      */
     public static final String PROGRESS_MSG_SPATIAL_OBJECT_LOAD_STARTING = PROGRESSMSG + "036";
-
     /**
-     * cli_bulk_operations_001 - The destination attribute already exist! 
-     * You can remove it before adding it again.
+     * cli_bulk_operations_001 - The destination attribute already exist! You
+     * can remove it before adding it again.
      */
     public static final String BULK_OPERATIONS_DESTINATION_ATTRIBUTE_EXISTS = BULK_OPERATIONS + "001";
 }
