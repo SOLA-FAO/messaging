@@ -1118,12 +1118,9 @@ public class ClientMessage {
     public static final String BULK_OPERATIONS_DESTINATION_ATTRIBUTE_EXISTS = BULK_OPERATIONS + "001";
 
     /**
-     * cli_bulk_operations_002 - Converting features to sola spatial objects...
+     * cli_bulk_operations_002 - Converting features to sola spatial objects and send to server...
      */
-    public static final String BULK_OPERATIONS_CONVERT_FEATURES_TO_BEANS = BULK_OPERATIONS + "002";
+    public static final String BULK_OPERATIONS_CONVERT_FEATURES_TO_BEANS_AND_SENDTOSERVER = 
+            BULK_OPERATIONS + "002";
 
-    /**
-     * cli_bulk_operations_002 - Sending spatial object to server...
-     */
-    public static final String BULK_OPERATIONS_SEND_BEANS_TO_SERVER = BULK_OPERATIONS + "003";
 }
