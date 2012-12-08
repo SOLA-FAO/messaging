@@ -588,6 +588,13 @@ public class ClientMessage {
      * clirpt001 - Report generation failed. Error details: {0}
      */
     public static final String REPORT_GENERATION_FAILED = REPORT + "001";
+    
+     /**
+     * clirpt002 - No Report
+     */
+    public static final String NO_REPORT_GENERATION = REPORT + "002";
+   
+    
     // Digital archive messages
     /**
      * cliarch001 - Select file to open.
