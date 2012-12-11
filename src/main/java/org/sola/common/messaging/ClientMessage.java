@@ -1119,6 +1119,10 @@ public class ClientMessage {
      */
     public static final String PROGRESS_MSG_SPATIAL_OBJECT_LOAD_STARTING = PROGRESSMSG + "036";
     /**
+     * cliprgs037 - Starting source load operation...
+     */
+    public static final String PROGRESS_MSG_SOURCE_LOAD_STARTING = PROGRESSMSG + "037";
+    /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
      * can remove it before adding it again.
      */
