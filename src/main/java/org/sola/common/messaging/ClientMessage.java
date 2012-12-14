@@ -1134,4 +1134,9 @@ public class ClientMessage {
     public static final String BULK_OPERATIONS_CONVERT_FEATURES_TO_BEANS_AND_SENDTOSERVER = 
             BULK_OPERATIONS + "002";
 
+    /**
+     * cli_bulk_operations_003 - Retrieving sources and sending them to the server ...
+     */
+    public static final String BULK_OPERATIONS_LOAD_SOURCE_AND_SENDTOSERVER = 
+            BULK_OPERATIONS + "003";
 }
