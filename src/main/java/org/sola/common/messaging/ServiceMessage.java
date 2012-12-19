@@ -125,6 +125,10 @@ public class ServiceMessage {
     /** serejbtransaction001 - Source does not exist. */
     public static final String EJB_TRANSACTION_TRANSACTION_NOT_FOUND = EJB_TRANSACTION + "001";
     
+    //TransactionEJB Messages
+    /** serejbtransaction002 - This transaction cannot be rejected. */
+    public static final String EJB_TRANSACTION_NOT_REJECTABLE= EJB_TRANSACTION + "002";
+    
     // Admin Web-service
     /** seradminservice001 - Username "{0}" already exists. */
     public static final String ADMIN_WS_USER_EXISTS = ADMIN_WS + "001";
