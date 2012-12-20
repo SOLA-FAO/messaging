@@ -1139,4 +1139,11 @@ public class ClientMessage {
      */
     public static final String BULK_OPERATIONS_LOAD_SOURCE_AND_SENDTOSERVER = 
             BULK_OPERATIONS + "003";
+
+    /**
+     * cli_bulk_operations_004 - Document type {0} is not found in the system. 
+     * System administrator must be approached to add it in the system.
+     */
+    public static final String BULK_OPERATIONS_LOAD_SOURCE_TYPE_NOT_FOUND = 
+            BULK_OPERATIONS + "004";
 }
