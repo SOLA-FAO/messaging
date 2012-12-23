@@ -594,7 +594,11 @@ public class ClientMessage {
      */
     public static final String NO_REPORT_GENERATION = REPORT + "002";
    
-    
+    /**
+     * clirpt003 - Report generation on area #{0}, has been successful
+     */
+    public static final String REPORT_GENERATION_SUCCESS = REPORT + "003";
+   
     // Digital archive messages
     /**
      * cliarch001 - Select file to open.
