@@ -588,17 +588,18 @@ public class ClientMessage {
      * clirpt001 - Report generation failed. Error details: {0}
      */
     public static final String REPORT_GENERATION_FAILED = REPORT + "001";
-    
-     /**
+    /**
      * clirpt002 - No Report
      */
     public static final String NO_REPORT_GENERATION = REPORT + "002";
-   
     /**
      * clirpt003 - Report generation on area #{0}, has been successful
      */
     public static final String REPORT_GENERATION_SUCCESS = REPORT + "003";
-   
+    /**
+     * clirpt004 - No certificate
+     */
+    public static final String NO_CERTIFICATE_GENERATION = REPORT + "004";
     // Digital archive messages
     /**
      * cliarch001 - Select file to open.
@@ -1131,23 +1132,22 @@ public class ClientMessage {
      * can remove it before adding it again.
      */
     public static final String BULK_OPERATIONS_DESTINATION_ATTRIBUTE_EXISTS = BULK_OPERATIONS + "001";
-
     /**
-     * cli_bulk_operations_002 - Converting features to sola spatial objects and send to server...
+     * cli_bulk_operations_002 - Converting features to sola spatial objects and
+     * send to server...
      */
-    public static final String BULK_OPERATIONS_CONVERT_FEATURES_TO_BEANS_AND_SENDTOSERVER = 
+    public static final String BULK_OPERATIONS_CONVERT_FEATURES_TO_BEANS_AND_SENDTOSERVER =
             BULK_OPERATIONS + "002";
-
     /**
-     * cli_bulk_operations_003 - Retrieving sources and sending them to the server ...
+     * cli_bulk_operations_003 - Retrieving sources and sending them to the
+     * server ...
      */
-    public static final String BULK_OPERATIONS_LOAD_SOURCE_AND_SENDTOSERVER = 
+    public static final String BULK_OPERATIONS_LOAD_SOURCE_AND_SENDTOSERVER =
             BULK_OPERATIONS + "003";
-
     /**
-     * cli_bulk_operations_004 - Document type {0} is not found in the system. 
+     * cli_bulk_operations_004 - Document type {0} is not found in the system.
      * System administrator must be approached to add it in the system.
      */
-    public static final String BULK_OPERATIONS_LOAD_SOURCE_TYPE_NOT_FOUND = 
+    public static final String BULK_OPERATIONS_LOAD_SOURCE_TYPE_NOT_FOUND =
             BULK_OPERATIONS + "004";
 }
