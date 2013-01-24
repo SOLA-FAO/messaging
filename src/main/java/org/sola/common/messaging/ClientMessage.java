@@ -147,6 +147,7 @@ public class ClientMessage {
      * clignrl023 - refresh Dashboard
      */
     public static final String GENERAL_BACK_TO_DASHBOARD = GENERAL + "023";
+    
     // Service Messages
     /**
      * cliserv001 - Unable to initialize the {0} service. The reason is: {1}
@@ -746,6 +747,15 @@ public class ClientMessage {
      * closed. Do you want to proceed?
      */
     public static final String CONFIRM_SYSTEM_WILL_BE_CLOSED = GENERAL_CONFIRM + "002";
+    
+    
+    /**
+     * cliconfirm003 - You are about changing used language. The window will be
+     * closed and opened again and you will lose all unsaved data. Do you want to proceed?
+     */
+    public static final String CONFIRM_CHANGE_LANGUAGE = GENERAL_CONFIRM + "003";
+    
+    
     // Help messages
     /**
      * clihelp001 - HelpSet - Exception:{0} Path: {1} not found
