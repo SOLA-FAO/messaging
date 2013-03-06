@@ -135,8 +135,16 @@ public class GisMessage {
     public static final String MIN_DISPLAY_SCALE = GEOTOOLS + "49";
     /** gisgeotools550 - Scale: */
     public static final String SCALE_LABEL = GEOTOOLS + "50";
-    /** gisgeotools551 - Scale: */
+    /** gisgeotools551 - The file {0} cannot be opened automatically */
     public static final String FAILED_OPEN_FILE = GEOTOOLS + "51";
+     /** gisgeotools552 - Export selected feature(s) to KML. */
+    public static final String KML_EXPORT_TOOLTIP = GEOTOOLS + "52";
+     /** gisgeotools553 - An error occurred while attempting to export the selected feature(s)  */
+    public static final String KML_EXPORT_ERROR = GEOTOOLS + "53";
+     /** gisgeotools554 - Map feature(s) have been successfully exported to %s" */
+    public static final String KML_EXPORT_FILE_LOCATION = GEOTOOLS + "54";
+     /** gisgeotools555 - No features are selected for export  */
+    public static final String KML_EXPORT_NO_FEATURE_SELECTED = GEOTOOLS + "55";
     
     //CADASTRE CHANGE
     /** The point has to fall on an current node or to a line*/
