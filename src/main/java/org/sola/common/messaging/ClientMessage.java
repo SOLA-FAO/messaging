@@ -715,6 +715,15 @@ public class ClientMessage {
      * please use selection tool for adding existing parcels
      */
     public static final String BAUNIT_PARCEL_EXISTS = BAUNIT + "018";
+    /**
+     * clibaunit019 - Rights export failed with the following error: {0}
+     */
+    public static final String BAUNIT_RIGHTS_EXPORT_FAILED = BAUNIT + "019";
+    /**
+     * clibaunit020 - Rights export has been completed successfully
+     */
+    public static final String BAUNIT_RIGHTS_EXPORT_SUCCESS = BAUNIT + "020";
+    
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}
@@ -1137,6 +1146,15 @@ public class ClientMessage {
      * cliprgs037 - Starting source load operation...
      */
     public static final String PROGRESS_MSG_SOURCE_LOAD_STARTING = PROGRESSMSG + "037";
+    /**
+     * cliprgs038 - Searching rights, it may take several minutes...
+     */
+    public static final String PROGRESS_MSG_SEARCH_RIGHTS = PROGRESSMSG + "038";
+    /**
+     * cliprgs039 - Exporting rights, it may take several minutes...
+     */
+    public static final String PROGRESS_MSG_EXPORT_RIGHTS = PROGRESSMSG + "039";
+    
     /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
      * can remove it before adding it again.
