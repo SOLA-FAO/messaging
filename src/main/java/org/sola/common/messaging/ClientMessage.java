@@ -763,7 +763,10 @@ public class ClientMessage {
      * closed and opened again and you will lose all unsaved data. Do you want to proceed?
      */
     public static final String CONFIRM_CHANGE_LANGUAGE = GENERAL_CONFIRM + "003";
-    
+    /**
+     * cliconfirm004 - Are you sure you want to remove record?
+     */
+    public static final String CONFIRM_REMOVE_RECORD = GENERAL_CONFIRM + "004";
     
     // Help messages
     /**
