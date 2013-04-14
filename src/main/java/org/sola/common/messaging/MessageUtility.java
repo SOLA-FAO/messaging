@@ -176,6 +176,16 @@ public class MessageUtility {
     public static String getLocalizedMessageText(String msgCode) {
         return getLocalizedMessage(msgCode).getMessage();
     }
+    
+    /**
+     * Uses the code to lookup the appropriate display message based the default locale. 
+     * @param msgCode The code identifying of the message to obtain.
+     * @param messageParameters The list of parameters to substitute into the message text.
+     * @return Localized message text.
+     */
+    public static String getLocalizedMessageText(String msgCode, Object[] messageParameters) {
+        return getLocalizedMessage(msgCode, messageParameters).getMessage();
+    }
 
     /**
      * Uses the code to lookup the appropriate display message based on the default locate and 

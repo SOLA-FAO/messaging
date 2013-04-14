@@ -404,6 +404,15 @@ public class ClientMessage {
      * clichck098 - From date can't be greater than To date
      */
     public static final String CHECK_FROM_TO_DATE = CHECK + "098";
+    /**
+     * clichck099 - Lease conditions list shouldn't be empty.
+     */
+    public static final String CHECK_SIZE_LEASE_CONDITIONS_LIST = CHECK + "099";
+    /**
+     * clichck100 - Area should have a value.
+     */
+    public static final String CHECK_NOTNULL_AREA = CHECK + "100";
+    
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
@@ -723,6 +732,30 @@ public class ClientMessage {
      * clibaunit020 - Rights export has been completed successfully
      */
     public static final String BAUNIT_RIGHTS_EXPORT_SUCCESS = BAUNIT + "020";
+    /**
+     * clibaunit021 - Select standard lease condition.
+     */
+    public static final String BAUNIT_LEASE_CONDITION_EMPTY = BAUNIT + "021";
+    /**
+     * clibaunit022 - Enter custom lease text.
+     */
+    public static final String BAUNIT_CUSTOM_LEASE_CONDITION_EMTY = BAUNIT + "022";
+    /**
+     * clibaunit023 - {0} has no registration number. It will be assigned automatically after saving property object.
+     */
+    public static final String BAUNIT_RRR_NO_REGISTRATION_NUMBER = BAUNIT + "023";
+    /**
+     * clibaunit024 - There are no parcels on the property object.
+     */
+    public static final String BAUNIT_HAS_NO_PARCELS = BAUNIT + "024";
+    /**
+     * clibaunit025 - The following warnings were found, which may affect report generation. Do you want to proceed?
+     */
+    public static final String BAUNIT_RRR_REPORT_WARNINGS = BAUNIT + "025";
+    /**
+     * clibaunit026 - Enter lease rejection reason
+     */
+    public static final String BAUNIT_LEASE_REJECTION_REASON_TITLE = BAUNIT + "026";
     
     // General error messages
     /**
@@ -1157,6 +1190,10 @@ public class ClientMessage {
      * cliprgs039 - Exporting rights, it may take several minutes...
      */
     public static final String PROGRESS_MSG_EXPORT_RIGHTS = PROGRESSMSG + "039";
+    /**
+     * cliprgs040 - Getting property...
+     */
+    public static final String PROGRESS_MSG_BA_UNIT_GETTING = PROGRESSMSG + "040";
     
     /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
