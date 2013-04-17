@@ -147,6 +147,14 @@ public class ClientMessage {
      * clignrl023 - refresh Dashboard
      */
     public static final String GENERAL_BACK_TO_DASHBOARD = GENERAL + "023";
+    /**
+     * clignrl024 - Assign
+     */
+    public static final String GENERAL_LABELS_ASSIGN = GENERAL + "024";
+    /**
+     * clignrl025 - Unassign
+     */
+    public static final String GENERAL_LABELS_UNASSIGN = GENERAL + "025";
     
     // Service Messages
     /**
@@ -168,7 +176,7 @@ public class ClientMessage {
     public static final String SEARCH_SELECT_APPLICATION = SEARCH + "003";
     // Check / Validation Messages
     /**
-     * clichck001 - The selected application cannot be assigned or unassigned
+     * clichck001 - Application {0} cannot be assigned or unassigned
      * until its fees are paid.
      */
     public static final String CHECK_FEES_NOT_PAID = CHECK + "001";
@@ -462,15 +470,15 @@ public class ClientMessage {
      */
     public static final String APPLICATION_ASSIGN = APPLICATION + "011";
     /**
-     * cliapp012 - Application has been assigned
+     * cliapp012 - Applications have been assigned
      */
     public static final String APPLICATION_ASSIGNED = APPLICATION + "012";
     /**
-     * cliapp013 - Application will be unassigned from user "{0}"
+     * cliapp013 - You can't unassign from yourself. Application number {0}
      */
-    public static final String APPLICATION_UNASSIGN = APPLICATION + "013";
+    public static final String APPLICATION_UNASSIGN_FROM_SELF_FORBIDDEN = APPLICATION + "013";
     /**
-     * cliapp014 - Application has been unassigned
+     * cliapp014 - Applications have been unassigned
      */
     public static final String APPLICATION_UNASSIGNED = APPLICATION + "014";
     /**
@@ -593,6 +601,15 @@ public class ClientMessage {
      * cliapp042 - Application service \"{0}\", has been successfully started.
      */
     public static final String APPLICATION_SERVICE_START_SUCCESS = APPLICATION + "042";
+    /**
+     * cliapp043 - You can't unassign from others. Application number {0}
+     */
+    public static final String APPLICATION_UNASSIGN_FROM_OTHERS_FORBIDDEN = APPLICATION + "043";
+    /**
+     * cliapp044 - Are you sure you want to unassign selected applications?
+     */
+    public static final String APPLICATION_CONFIRM_UNASSIGN = APPLICATION + "044";
+    
     // Reports messages.
     /**
      * clirpt001 - Report generation failed. Error details: {0}
