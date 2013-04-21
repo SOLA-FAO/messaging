@@ -293,8 +293,8 @@ public class GisMessage {
     /* The last part is not set.*/
     public static final String PRINT_PUBLIC_DISPLAY_FILTER_NOT_FOUND = PRINT_PUBLIC_DISPLAY + "01";
 
-    /* Error while centering map in the public display map functionality.*/
-    public static final String PRINT_PUBLIC_DISPLAY_CENTER_MAP_ERROR = PRINT_PUBLIC_DISPLAY + "02";
+    /* There are no cadastre objects with this last part found.*/
+    public static final String PRINT_PUBLIC_DISPLAY_CENTER_LAST_PART_CO_NOT_FOUND = PRINT_PUBLIC_DISPLAY + "02";
     
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /** gistest001 - Unit Test Message */
