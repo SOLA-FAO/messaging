@@ -147,6 +147,10 @@ public class GisMessage {
      /** gisgeotools555 - No features are selected for export  */
     public static final String KML_EXPORT_NO_FEATURE_SELECTED = GEOTOOLS + "55";
     
+     /** gisgeotools556 - WMS Layer is not rendered. Most probably the wms server is not available. Switch the layer off in order not to get this message. */
+    public static final String WMSLAYER_LAYER_RENDER_ERROR = GEOTOOLS + "56";
+    
+    
     //CADASTRE CHANGE
     /** The point has to fall on an current node or to a line*/
     public static final String CADASTRE_CHANGE_HAS_TO_SNAP  = CADASTRE_CHANGE + "001";
