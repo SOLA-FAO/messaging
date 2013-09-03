@@ -97,6 +97,8 @@ public class ServiceMessage {
     public static final String EXCEPTION_INVALID_SECURITY_HEADER = EXCEPTION + "009";
     /* serexcp010 - The file cannot be attached due to its size ({0}MB) */
     public static final String EXCEPTION_FILE_TOO_BIG = EXCEPTION + "010";
+    /* serexcp020 - The file cannot be attached due to its size ({0}MB) */
+    public static final String EXCEPTION_NETWORK_SCAN_FOLDER = EXCEPTION + "020";
 
     
     // Business Rule Messages
