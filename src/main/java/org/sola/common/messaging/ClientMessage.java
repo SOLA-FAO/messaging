@@ -52,6 +52,7 @@ public class ClientMessage {
     private static final String BR = MSG_PREFIX + "br";
     private static final String PROGRESSMSG = MSG_PREFIX + "prgs";
     private static final String BULK_OPERATIONS = MSG_PREFIX + "_bulk_operations_";
+    private static final String SECURITY = MSG_PREFIX + "sec";
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /**
      * clitest001 - Unit Test Message
@@ -155,7 +156,6 @@ public class ClientMessage {
      * clignrl025 - Unassign
      */
     public static final String GENERAL_LABELS_UNASSIGN = GENERAL + "025";
-    
     // Service Messages
     /**
      * cliserv001 - Unable to initialize the {0} service. The reason is: {1}
@@ -176,8 +176,8 @@ public class ClientMessage {
     public static final String SEARCH_SELECT_APPLICATION = SEARCH + "003";
     // Check / Validation Messages
     /**
-     * clichck001 - Application {0} cannot be assigned or unassigned
-     * until its fees are paid.
+     * clichck001 - Application {0} cannot be assigned or unassigned until its
+     * fees are paid.
      */
     public static final String CHECK_FEES_NOT_PAID = CHECK + "001";
     /**
@@ -420,7 +420,6 @@ public class ClientMessage {
      * clichck100 - Area should have a value.
      */
     public static final String CHECK_NOTNULL_AREA = CHECK + "100";
-    
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
@@ -609,7 +608,6 @@ public class ClientMessage {
      * cliapp044 - Are you sure you want to unassign selected applications?
      */
     public static final String APPLICATION_CONFIRM_UNASSIGN = APPLICATION + "044";
-    
     // Reports messages.
     /**
      * clirpt001 - Report generation failed. Error details: {0}
@@ -758,7 +756,8 @@ public class ClientMessage {
      */
     public static final String BAUNIT_CUSTOM_LEASE_CONDITION_EMTY = BAUNIT + "022";
     /**
-     * clibaunit023 - {0} has no registration number. It will be assigned automatically after saving property object.
+     * clibaunit023 - {0} has no registration number. It will be assigned
+     * automatically after saving property object.
      */
     public static final String BAUNIT_RRR_NO_REGISTRATION_NUMBER = BAUNIT + "023";
     /**
@@ -766,14 +765,14 @@ public class ClientMessage {
      */
     public static final String BAUNIT_HAS_NO_PARCELS = BAUNIT + "024";
     /**
-     * clibaunit025 - The following warnings were found, which may affect report generation. Do you want to proceed?
+     * clibaunit025 - The following warnings were found, which may affect report
+     * generation. Do you want to proceed?
      */
     public static final String BAUNIT_RRR_REPORT_WARNINGS = BAUNIT + "025";
     /**
      * clibaunit026 - Enter lease rejection reason
      */
     public static final String BAUNIT_LEASE_REJECTION_REASON_TITLE = BAUNIT + "026";
-    
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}
@@ -806,18 +805,16 @@ public class ClientMessage {
      * closed. Do you want to proceed?
      */
     public static final String CONFIRM_SYSTEM_WILL_BE_CLOSED = GENERAL_CONFIRM + "002";
-    
-    
     /**
      * cliconfirm003 - You are about changing used language. The window will be
-     * closed and opened again and you will lose all unsaved data. Do you want to proceed?
+     * closed and opened again and you will lose all unsaved data. Do you want
+     * to proceed?
      */
     public static final String CONFIRM_CHANGE_LANGUAGE = GENERAL_CONFIRM + "003";
     /**
      * cliconfirm004 - Are you sure you want to remove record?
      */
     public static final String CONFIRM_REMOVE_RECORD = GENERAL_CONFIRM + "004";
-    
     // Help messages
     /**
      * clihelp001 - HelpSet - Exception:{0} Path: {1} not found
@@ -1211,7 +1208,6 @@ public class ClientMessage {
      * cliprgs040 - Getting property...
      */
     public static final String PROGRESS_MSG_BA_UNIT_GETTING = PROGRESSMSG + "040";
-    
     /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
      * can remove it before adding it again.
@@ -1235,4 +1231,16 @@ public class ClientMessage {
      */
     public static final String BULK_OPERATIONS_LOAD_SOURCE_TYPE_NOT_FOUND =
             BULK_OPERATIONS + "004";
+    /**
+     * clisec001 - Your password is due to expire in {0} days.
+     */
+    public static final String SECURITY_WARN_PWORD_EXPIRY = SECURITY + "001";
+    /**
+     * clisec002 - Your password has been set by an administrator.
+     */
+    public static final String SECURITY_PASSWORD_SET_BY_ADMIN = SECURITY + "002";
+    /**
+     * clisec003 - Your password has expired.
+     */
+    public static final String SECURITY_PASSWORD_EXPIRED = SECURITY + "003";
 }
