@@ -413,9 +413,9 @@ public class ClientMessage {
      */
     public static final String CHECK_FROM_TO_DATE = CHECK + "098";
     /**
-     * clichck099 - Lease conditions list shouldn't be empty.
+     * clichck099 - Conditions list shouldn't be empty.
      */
-    public static final String CHECK_SIZE_LEASE_CONDITIONS_LIST = CHECK + "099";
+    public static final String CHECK_SIZE_CONDITIONS_LIST = CHECK + "099";
     /**
      * clichck100 - Area should have a value.
      */
@@ -748,13 +748,13 @@ public class ClientMessage {
      */
     public static final String BAUNIT_RIGHTS_EXPORT_SUCCESS = BAUNIT + "020";
     /**
-     * clibaunit021 - Select standard lease condition.
+     * clibaunit021 - Select condition.
      */
-    public static final String BAUNIT_LEASE_CONDITION_EMPTY = BAUNIT + "021";
+    public static final String BAUNIT_CONDITION_EMPTY = BAUNIT + "021";
     /**
-     * clibaunit022 - Enter custom lease text.
+     * clibaunit022 - Enter custom condition text.
      */
-    public static final String BAUNIT_CUSTOM_LEASE_CONDITION_EMTY = BAUNIT + "022";
+    public static final String BAUNIT_CUSTOM_CONDITION_EMTY = BAUNIT + "022";
     /**
      * clibaunit023 - {0} has no registration number. It will be assigned
      * automatically after saving property object.
