@@ -300,7 +300,10 @@ public class GisMessage {
 
     /* There are no cadastre objects with this last part found.*/
     public static final String PRINT_PUBLIC_DISPLAY_CENTER_LAST_PART_CO_NOT_FOUND = PRINT_PUBLIC_DISPLAY + "02";
-        
+
+    /* Changes of spatial unit groups are successfully saved.*/
+    public static final String SPATIAL_UNIT_GROUP_SAVED_SUCCESS = SPATIAL_UNIT_GROUP + "01";
+    
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /** gistest001 - Unit Test Message */
     public static final String TEST001 = TEST + "001";
