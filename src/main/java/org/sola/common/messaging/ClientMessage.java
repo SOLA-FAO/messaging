@@ -420,6 +420,12 @@ public class ClientMessage {
      * clichck100 - Area should have a value.
      */
     public static final String CHECK_NOTNULL_AREA = CHECK + "100";
+    
+     /**
+     * clichck101 - gender must be specified.
+     */
+    public static final String CHECK_NOTNULL_GENDER = CHECK + "101";
+    
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
