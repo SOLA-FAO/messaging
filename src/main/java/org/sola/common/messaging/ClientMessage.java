@@ -426,6 +426,32 @@ public class ClientMessage {
      */
     public static final String CHECK_NOTNULL_GENDER = CHECK + "101";
     
+     /**
+     * clichck102 - gender must be specified.
+     */
+    public static final String CHECK_FIELD_INVALID_LENGTH_CODE = CHECK + "102";
+     /**
+     * clichck103 - gender must be specified.
+     */
+    public static final String CHECK_FIELD_INVALID_LENGTH_DESCRIPTION = CHECK + "103";
+     /**
+     * clichck104 - gender must be specified.
+     */
+    public static final String CHECK_FIELD_INVALID_LENGTH_DISPLAY = CHECK + "104";
+     /**
+     * clichck105 - gender must be specified.
+     */
+    public static final String CHECK_FIELD_INVALID_LENGTH_FIRSTNAME = CHECK + "105";
+     /**
+     * clichck106 - gender must be specified.
+     */
+    public static final String CHECK_FIELD_INVALID_LENGTH_USERNAME = CHECK + "106";
+     /**
+     * clichck107 - gender must be specified.
+     */
+    public static final String CHECK_FIELD_INVALID_LENGTH_PASSWORD = CHECK + "107";
+    
+    
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
