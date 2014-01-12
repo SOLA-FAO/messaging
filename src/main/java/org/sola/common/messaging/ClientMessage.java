@@ -1083,6 +1083,27 @@ public class ClientMessage {
      * cliadmin023 - Reference data object \"{0}\" has been saved.
      */
     public static final String ADMIN_REFDATA_SAVED = ADMIN + "023";
+
+    /**
+     * cliadmin024 - Extract records from the system...
+     */
+    public static final String ADMIN_CONSOLIDATION_EXTRACT = ADMIN + "024";
+    
+    /**
+     * cliadmin025 - Consolidate records to the current system...
+     */
+    public static final String ADMIN_CONSOLIDATION_CONSOLIDATE = ADMIN + "025";
+
+    /**
+     * cliadmin026 - Output file: {0}.
+     */
+    public static final String ADMIN_CONSOLIDATION_EXTRACT_OUTPUT_FILE = ADMIN + "026";
+
+    /**
+     * cliadmin027 - Extracted database file is missing.
+     */
+    public static final String ADMIN_CONSOLIDATION_CONSOLIDATE_FILE_MISSING = ADMIN + "027";
+
     // Progress bar messages
     /**
      * cliprgs001 - Opening application form...
