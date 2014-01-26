@@ -1104,6 +1104,26 @@ public class ClientMessage {
      */
     public static final String ADMIN_CONSOLIDATION_CONSOLIDATE_FILE_MISSING = ADMIN + "027";
 
+    /**
+     * cliadmin028 - Uploading file ...
+     */
+    public static final String ADMIN_CONSOLIDATION_CONSOLIDATE_UPLOADING_FILE = ADMIN + "028";
+
+    /**
+     * cliadmin029 - done.
+     */
+    public static final String ADMIN_CONSOLIDATION_DONE = ADMIN + "029";
+
+    /**
+     * cliadmin030 - Consolidating in server...
+     */
+    public static final String ADMIN_CONSOLIDATION_CONSOLIDATE_CONSOLIDATING_IN_SERVER = ADMIN + "030";
+
+    /**
+     * cliadmin031 - Downloading extracted file...
+     */
+    public static final String ADMIN_CONSOLIDATION_EXTRACT_DOWNLOAD = ADMIN + "031";
+
     // Progress bar messages
     /**
      * cliprgs001 - Opening application form...
