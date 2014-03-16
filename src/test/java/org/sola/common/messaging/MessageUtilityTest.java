@@ -337,8 +337,11 @@ public class MessageUtilityTest {
 
     /**
      * Checks that a default message is returned for an invalid code for the UK locale
+     * No need for UK locale test, since English is default locale now and all variations (e.g. UK) were removed
      */
     @Test
+    @Ignore
+    @Deprecated
     public void testGetLocalizedMessage_InvalidCodeUKLocale() {
         System.out.println("getLocalizedMessage_InvalidCodeUKLocale");
         String msgCode = "invalid";
@@ -361,8 +364,11 @@ public class MessageUtilityTest {
 
     /**
      * Checks a valid message can be retrieved from the Service package for the UK locale
+     * No need for UK locale test, since English is default locale now and all variations (e.g. UK) were removed
      */
     @Test
+    @Ignore
+    @Deprecated
     public void testGetLocalizedMessage_ServiceTestMsgUKLocale() {
         System.out.println("getLocalizedMessage_ServiceTestMsgUKLocale");
         String msgCode = ServiceMessage.TEST001;
@@ -385,8 +391,11 @@ public class MessageUtilityTest {
     /**
      * Checks that a message that is not in the named locale bundle is retrieved from the default
      * bundle
+     * No need for UK locale test, since English is default locale now and all variations (e.g. UK) were removed
      */
     @Test
+    @Ignore
+    @Deprecated
     public void testGetLocalizedMessage_ServiceTestMsgUKLocale_Default() {
         System.out.println("getLocalizedMessage_ServiceTestMsgUKLocale_Default");
         String msgCode = ServiceMessage.TEST004;
