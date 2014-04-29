@@ -177,6 +177,49 @@ public class MessageUtility {
         return getLocalizedMessage(msgCode).getMessage();
     }
     
+    /** 
+     * Returns message text. 
+     * @param msgCode The code identifying of the message to obtain.
+     * @param localeCode Locale code (e.g. en-US)
+     * @see ServiceMessage#GENERAL_UNEXPECTED
+     * @return 
+     */
+    public static String getLocalizedMessageText(String msgCode, String localeCode){
+        return getLocalizedMessageText(msgCode, localeCode, null);
+    }
+    
+    /** 
+     * Returns message text. 
+     * @param msgCode The code identifying of the message to obtain.
+     * @param localeCode Locale code (e.g. en-US)
+     * @param messageParameters The list of parameters to substitute into the message.
+     * @see ServiceMessage#GENERAL_UNEXPECTED
+     * @return 
+     */
+    public static String getLocalizedMessageText(String msgCode, String localeCode, Object[] messageParameters){
+        String msgText = "";
+        LocalizedMessage msg;
+        
+        if(localeCode!=null && !localeCode.equals("")){
+            Locale locale;
+            if(localeCode.contains("-")){
+                String localeParts[] = localeCode.toLowerCase().split("-");
+                locale = new Locale(localeParts[0], localeParts[1].toUpperCase());
+            } else 
+            {
+                locale = new Locale(localeCode);
+            }
+            msg = getLocalizedMessage(msgCode, locale, messageParameters);
+        } else {
+            msg = getLocalizedMessage(msgCode, messageParameters);
+        }
+        
+        if(msg!=null){
+            msgText = msg.getMessage();
+        }
+        return msgText;
+    }
+    
     /**
      * Uses the code to lookup the appropriate display message based the default locale. 
      * @param msgCode The code identifying of the message to obtain.
