@@ -199,5 +199,13 @@ public class ServiceMessage {
     
     /** ser_ot018 - Attachment chunks not found. */
     public static final String OT_WS_CHUNKS_NOT_FOUND = OT_WS + "018";
-
+    
+    /** ser_ot019 - Claim not found. */
+    public static final String OT_WS_CLAIM_NOT_FOUND = OT_WS + "019";
+    
+    /** ser_ot020 - Claim was moderated and can't be changed. */
+    public static final String OT_WS_CLAIM_ALREADY_MODERATED = OT_WS + "020";
+    
+    /** ser_ot021 - Claim has challenges and can't be deleted. Delete claim challenges first. */
+    public static final String OT_WS_CLAIM_HAS_CHALLENGES = OT_WS + "021";
 }
