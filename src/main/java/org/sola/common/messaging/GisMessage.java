@@ -226,7 +226,15 @@ public class GisMessage {
      public static final String CADASTRE_CHANGE_FORM_SURVEYPOINT_TITLE  = 
              CADASTRE_CHANGE + "028";
 
+         /** Parcels are being deleted. Total: {0}. Is this really your intention? */
+     public static final String CADASTRE_CHANGE_SAVE_WARNING_PARCELS_DELETED  = 
+             CADASTRE_CHANGE + "029";
+
+         /** Maximum number of parcels allowed is reached. Total: {0}. You cannot add an extra parcel. */
+     public static final String CADASTRE_CHANGE_ERROR_MAX_NUMBER_OF_PARCELS_REACHED  = 
+             CADASTRE_CHANGE + "030";
      
+             
      //Cadastre redefinition
     /**Coordinates entered are not valid.*/
     public static final String CADASTRE_REDEFINITION_COORDS_NOT_VALID  = CADASTRE_REDEFINITION + "001";
