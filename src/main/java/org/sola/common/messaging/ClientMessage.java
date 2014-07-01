@@ -643,7 +643,7 @@ public class ClientMessage {
      * cliapp045 - Unable to display the screen for this service.
      */
     public static final String APPLICATION_UNKNOWN_LAUNCH_PANEL = APPLICATION + "045";
-        /**
+    /**
      * cliapp046 - Unable to determine a property for this service.
      */
     public static final String APPLICATION_NO_PROPERTY_FOR_SERVICE = APPLICATION + "046";
@@ -841,7 +841,7 @@ public class ClientMessage {
     /**
      * clierrs007 - Configuration missing for panel launch code {0}
      */
-    public static final String ERR_MISSING_PANEL_LAUNCH_CODE= GENERAL_ERRORS + "007";
+    public static final String ERR_MISSING_PANEL_LAUNCH_CODE = GENERAL_ERRORS + "007";
 
     // General confirms
     /**
@@ -1302,6 +1302,10 @@ public class ClientMessage {
      * cliprgs041 - Generating report...
      */
     public static final String PROGRESS_MSG_GENERATING_REPORT = PROGRESSMSG + "041";
+    /**
+     * cliprgs100 - Opening notation...
+     */
+    public static final String PROGRESS_MSG_OPEN_NOTATION = PROGRESSMSG + "100";
     /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
      * can remove it before adding it again.
