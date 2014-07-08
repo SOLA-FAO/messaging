@@ -1306,6 +1306,10 @@ public class ClientMessage {
      * cliprgs100 - Opening notation...
      */
     public static final String PROGRESS_MSG_OPEN_NOTATION = PROGRESSMSG + "100";
+   /**
+     * cliprgs101 - Opening parcel...
+     */
+    public static final String PROGRESS_MSG_OPEN_PARCEL = PROGRESSMSG + "101";
     /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
      * can remove it before adding it again.
