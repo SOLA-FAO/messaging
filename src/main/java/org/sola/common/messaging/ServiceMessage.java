@@ -203,9 +203,42 @@ public class ServiceMessage {
     /** ser_ot019 - Claim not found. */
     public static final String OT_WS_CLAIM_NOT_FOUND = OT_WS + "019";
     
-    /** ser_ot020 - Claim was moderated and can't be changed. */
-    public static final String OT_WS_CLAIM_ALREADY_MODERATED = OT_WS + "020";
+    /** ser_ot020 - Moderated, rejected or withdrawn claim can not be edited. */
+    public static final String OT_WS_CLAIM_IS_READ_ONLY = OT_WS + "020";
     
-    /** ser_ot021 - Claim has challenges and can't be deleted. Delete claim challenges first. */
+    /** ser_ot021 - Claim has challenges which are not yet approved or rejected. */
     public static final String OT_WS_CLAIM_HAS_CHALLENGES = OT_WS + "021";
+    
+    /** ser_ot022 - Claim can't be edited. */
+    public static final String OT_WS_CLAIM_IS_NOT_EDITABLE = OT_WS + "022";
+    
+    /** ser_ot023 - You can't do any action to the claim assigned to another user. */
+    public static final String OT_WS_CLAIM_ASSIGNED_TO_OTHER_USER = OT_WS + "023";
+    
+    /** ser_ot024 - Claim can not be rejected, because of it's state. */
+    public static final String OT_WS_CLAIM_CANT_REJECT = OT_WS + "024";
+    
+    /** ser_ot025 - Claim can not be approved, because of it's state. */
+    public static final String OT_WS_CLAIM_CANT_APPROVE = OT_WS + "025";
+    
+    /** ser_ot026 - Moderated, rejected or withdrawn claim can not be challenged. */
+    public static final String OT_WS_CHALLENGED_CLAIM_IS_READ_ONLY = OT_WS + "026";
+    
+    /** ser_ot027 - Claim challenge can't be submitted to the claim challenge. */
+    public static final String OT_WS_CHALLENGE_TO_CHALLENGE_CLAIM = OT_WS + "027";
+    
+    /** ser_ot028 - Claim can not be assigned, because of it's state. */
+    public static final String OT_WS_CLAIM_CANT_ASSIGN = OT_WS + "028";
+    
+    /** ser_ot029 - Claim can not be unassigned, because of it's state. */
+    public static final String OT_WS_CLAIM_CANT_UNASSIGN = OT_WS + "029";
+    
+    /** ser_ot030 - Claim must have unmoderated status. */
+    public static final String OT_WS_CLAIM_MUST_BE_UNMODERATED = OT_WS + "030";
+    
+    /** ser_ot031 - Claim moderation time has expired. */
+    public static final String OT_WS_CLAIM_MODERATION_EXPIRED = OT_WS + "031";
+    
+    /** ser_ot032 - Claim must be assigned. */
+    public static final String OT_WS_CLAIM_MUST_BE_ASSIGNED = OT_WS + "032";
 }
