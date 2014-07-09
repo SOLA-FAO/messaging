@@ -1,28 +1,30 @@
 /**
  * ******************************************************************************************
- * Copyright (C) 2014 - Food and Agriculture Organization of the United Nations (FAO).
- * All rights reserved.
+ * Copyright (C) 2014 - Food and Agriculture Organization of the United Nations
+ * (FAO). All rights reserved.
  *
- * Redistribution and use in source and binary forms, with or without modification,
- * are permitted provided that the following conditions are met:
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
  *
- *    1. Redistributions of source code must retain the above copyright notice,this list
- *       of conditions and the following disclaimer.
- *    2. Redistributions in binary form must reproduce the above copyright notice,this list
- *       of conditions and the following disclaimer in the documentation and/or other
- *       materials provided with the distribution.
- *    3. Neither the name of FAO nor the names of its contributors may be used to endorse or
- *       promote products derived from this software without specific prior written permission.
+ * 1. Redistributions of source code must retain the above copyright notice,this
+ * list of conditions and the following disclaimer. 2. Redistributions in binary
+ * form must reproduce the above copyright notice,this list of conditions and
+ * the following disclaimer in the documentation and/or other materials provided
+ * with the distribution. 3. Neither the name of FAO nor the names of its
+ * contributors may be used to endorse or promote products derived from this
+ * software without specific prior written permission.
  *
- * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
- * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
- * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
- * SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
- * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,PROCUREMENT
- * OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
- * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,STRICT LIABILITY,OR TORT
- * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
- * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+ * LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,PROCUREMENT OF
+ * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ * CONTRACT,STRICT LIABILITY,OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+ * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ * POSSIBILITY OF SUCH DAMAGE.
  * *********************************************************************************************
  */
 package org.sola.common.messaging;
@@ -418,38 +420,37 @@ public class ClientMessage {
      * clichck100 - Area should have a value.
      */
     public static final String CHECK_NOTNULL_AREA = CHECK + "100";
-    
-     /**
+
+    /**
      * clichck101 - gender must be specified.
      */
     public static final String CHECK_NOTNULL_GENDER = CHECK + "101";
-    
-     /**
+
+    /**
      * clichck102 - gender must be specified.
      */
     public static final String CHECK_FIELD_INVALID_LENGTH_CODE = CHECK + "102";
-     /**
+    /**
      * clichck103 - gender must be specified.
      */
     public static final String CHECK_FIELD_INVALID_LENGTH_DESCRIPTION = CHECK + "103";
-     /**
+    /**
      * clichck104 - gender must be specified.
      */
     public static final String CHECK_FIELD_INVALID_LENGTH_DISPLAY = CHECK + "104";
-     /**
+    /**
      * clichck105 - gender must be specified.
      */
     public static final String CHECK_FIELD_INVALID_LENGTH_FIRSTNAME = CHECK + "105";
-     /**
+    /**
      * clichck106 - gender must be specified.
      */
     public static final String CHECK_FIELD_INVALID_LENGTH_USERNAME = CHECK + "106";
-     /**
+    /**
      * clichck107 - gender must be specified.
      */
     public static final String CHECK_FIELD_INVALID_LENGTH_PASSWORD = CHECK + "107";
-    
-    
+
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
@@ -638,6 +639,14 @@ public class ClientMessage {
      * cliapp044 - Are you sure you want to unassign selected applications?
      */
     public static final String APPLICATION_CONFIRM_UNASSIGN = APPLICATION + "044";
+    /**
+     * cliapp045 - Unable to display the screen for this service.
+     */
+    public static final String APPLICATION_UNKNOWN_LAUNCH_PANEL = APPLICATION + "045";
+        /**
+     * cliapp046 - Unable to determine a property for this service.
+     */
+    public static final String APPLICATION_NO_PROPERTY_FOR_SERVICE = APPLICATION + "046";
     // Reports messages.
     /**
      * clirpt001 - Report generation failed. Error details: {0}
@@ -824,6 +833,16 @@ public class ClientMessage {
      * clierrs005 - {0} Web-service is not initialized.
      */
     public static final String GENERAL_ERRORS_WEBSERVICE_NOT_INITIALIZED = GENERAL_ERRORS + "005";
+
+    /**
+     * clierrs006 - Unable to display panel {0}
+     */
+    public static final String ERR_UNABLE_TO_LAUNCH_PANEL = GENERAL_ERRORS + "006";
+    /**
+     * clierrs007 - Configuration missing for panel launch code {0}
+     */
+    public static final String ERR_MISSING_PANEL_LAUNCH_CODE= GENERAL_ERRORS + "007";
+
     // General confirms
     /**
      * cliconfirm001 - Are you sure you want to delete record? All data will be
@@ -1086,7 +1105,7 @@ public class ClientMessage {
      * cliadmin024 - Extract records from the system...
      */
     public static final String ADMIN_CONSOLIDATION_EXTRACT = ADMIN + "024";
-    
+
     /**
      * cliadmin025 - Consolidate records to the current system...
      */
@@ -1292,20 +1311,20 @@ public class ClientMessage {
      * cli_bulk_operations_002 - Converting features to sola spatial objects and
      * send to server...
      */
-    public static final String BULK_OPERATIONS_CONVERT_FEATURES_TO_BEANS_AND_SENDTOSERVER =
-            BULK_OPERATIONS + "002";
+    public static final String BULK_OPERATIONS_CONVERT_FEATURES_TO_BEANS_AND_SENDTOSERVER
+            = BULK_OPERATIONS + "002";
     /**
      * cli_bulk_operations_003 - Retrieving sources and sending them to the
      * server ...
      */
-    public static final String BULK_OPERATIONS_LOAD_SOURCE_AND_SENDTOSERVER =
-            BULK_OPERATIONS + "003";
+    public static final String BULK_OPERATIONS_LOAD_SOURCE_AND_SENDTOSERVER
+            = BULK_OPERATIONS + "003";
     /**
      * cli_bulk_operations_004 - Document type {0} is not found in the system.
      * System administrator must be approached to add it in the system.
      */
-    public static final String BULK_OPERATIONS_LOAD_SOURCE_TYPE_NOT_FOUND =
-            BULK_OPERATIONS + "004";
+    public static final String BULK_OPERATIONS_LOAD_SOURCE_TYPE_NOT_FOUND
+            = BULK_OPERATIONS + "004";
     /**
      * clisec001 - Your password is due to expire in {0} days.
      */
