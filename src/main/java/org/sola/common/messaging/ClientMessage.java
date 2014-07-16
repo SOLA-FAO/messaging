@@ -812,6 +812,10 @@ public class ClientMessage {
      * clibaunit026 - Enter lease rejection reason
      */
     public static final String BAUNIT_LEASE_REJECTION_REASON_TITLE = BAUNIT + "026";
+    /**
+     * clibaunit050 - Enter custom condition name.
+     */
+    public static final String BAUNIT_CUSTOM_CONDITION_NAME_EMPTY = BAUNIT + "050";
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}
@@ -1306,7 +1310,7 @@ public class ClientMessage {
      * cliprgs100 - Opening notation...
      */
     public static final String PROGRESS_MSG_OPEN_NOTATION = PROGRESSMSG + "100";
-   /**
+    /**
      * cliprgs101 - Opening parcel...
      */
     public static final String PROGRESS_MSG_OPEN_PARCEL = PROGRESSMSG + "101";
