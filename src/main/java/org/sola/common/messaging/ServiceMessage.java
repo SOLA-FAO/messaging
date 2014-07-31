@@ -241,4 +241,47 @@ public class ServiceMessage {
     
     /** ser_ot032 - Claim must be assigned. */
     public static final String OT_WS_CLAIM_MUST_BE_ASSIGNED = OT_WS + "032";
+    
+    /** ser_ot033 - At least one share is required */
+    public static final String OT_WS_CLAIM_SHARES_REQUIRED = OT_WS + "033";
+    /** ser_ot034 - All shares must have at least 1 owner */
+    public static final String OT_WS_CLAIM_SHARE_OWNER_REQUIRED = OT_WS + "034";
+    /** ser_ot035 - Total shares must result into 100% */
+    public static final String OT_WS_CLAIM_SHARE_TOTAL_SHARE_WRONG = OT_WS + "035";
+    /** ser_ot036 - Numerator can't be 0 or less than 0 */
+    public static final String OT_WS_CLAIM_SHARE_ZERO_NUMERATOR = OT_WS + "036";
+    /** ser_ot037 - Denominator can't be 0 or less than 0 */
+    public static final String OT_WS_CLAIM_SHARE_ZERO_DENOMINATOR = OT_WS + "037";
+    /** ser_ot038 - Claim ID is required */
+    public static final String OT_WS_CLAIM_ID_REQUIERD = OT_WS + "038";
+    /** ser_ot039 - Claimant ID is required */
+    public static final String OT_WS_CLAIM_CLAIMANT_ID_REQUIERD = OT_WS + "039";
+    /** ser_ot040 - Parcel mapped geometry is required */
+    public static final String OT_WS_CLAIM_GEOMETRY_REQUIERD = OT_WS + "040";
+    /** ser_ot041 - Claimant name is required */
+    public static final String OT_WS_CLAIM_CLAIMANT_NAME_REQUIERD = OT_WS + "041";
+    /** ser_ot042 - Claimant is required */
+    public static final String OT_WS_CLAIM_CLAIMANT_REQUIERD = OT_WS + "042";
+    /** ser_ot043 - Claimant with provided ID already exists */
+    public static final String OT_WS_CLAIM_CLAIMANT_EXISTS = OT_WS + "043";
+    /** ser_ot044 - Owner with provided ID already exists */
+    public static final String OT_WS_CLAIM_OWNER_EXISTS = OT_WS + "044";
+    /** ser_ot045 - Claim is outside of community area */
+    public static final String OT_WS_CLAIM_OUTSIDE_COMMUNITY = OT_WS + "045";
+    /** ser_ot046 - Owner name is required */
+    public static final String OT_WS_CLAIM_OWNER_NAME_REQUIERD = OT_WS + "046";
+    /** ser_ot047 - Owner ID is required */
+    public static final String OT_WS_CLAIM_OWNER_ID_REQUIERD = OT_WS + "047";
+    /** ser_ot048 - claimant */
+    public static final String OT_WS_CLAIM_CLAIMANT = OT_WS + "048";
+    /** ser_ot049 - claim recorder */
+    public static final String OT_WS_CLAIM_RECORDER = OT_WS + "049";
+    /** ser_ot050 - claimant of the challenging claim */
+    public static final String OT_WS_CLAIM_CHALLENGE_CLAIMANT = OT_WS + "050";
+    /** ser_ot051 - recorder of the challenging claim */
+    public static final String OT_WS_CLAIM_CHALLENGE_RECORDER = OT_WS + "051";
+    /** ser_ot052 - claimant of the challenged claim */
+    public static final String OT_WS_CLAIM_CHALLENGED_CLAIM_CLAIMANT = OT_WS + "052";
+    /** ser_ot053 - recorder of the challenged claim */
+    public static final String OT_WS_CLAIM_CHALLENGED_CLAIM_RECORDER = OT_WS + "053";
 }
