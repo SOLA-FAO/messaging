@@ -816,6 +816,11 @@ public class ClientMessage {
      * clibaunit050 - Enter custom condition name.
      */
     public static final String BAUNIT_CUSTOM_CONDITION_NAME_EMPTY = BAUNIT + "050";
+    /**
+     * clibaunit051 - Property manager assigned
+     */
+    public static final String BAUNIT_PROP_MANAGER_ASSIGNED = BAUNIT + "051";
+
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}
@@ -1314,6 +1319,18 @@ public class ClientMessage {
      * cliprgs101 - Opening parcel...
      */
     public static final String PROGRESS_MSG_OPEN_PARCEL = PROGRESSMSG + "101";
+    /**
+     * cliprgs102 - Assigning property manager...
+     */
+    public static final String PROGRESS_MSG_ASSIGN_PROP_MANAGER = PROGRESSMSG + "102";
+    /**
+     * cliprgs103 - Assigning job...
+     */
+    public static final String PROGRESS_MSG_ASSIGN_JOB = PROGRESSMSG + "103";
+        /**
+     * cliprgs104 - Loading properties to action...
+     */
+    public static final String PROGRESS_MSG_PROP_TO_ACTION = PROGRESSMSG + "104";
     /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
      * can remove it before adding it again.
