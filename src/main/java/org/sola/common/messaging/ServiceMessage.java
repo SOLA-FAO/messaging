@@ -205,6 +205,8 @@ public class ServiceMessage {
     public static final String REDACT_RESTRICTED = REDACT + "001";
     /** serredact002 - Not Applicable. */
     public static final String REDACT_GENDER = REDACT + "002";
-    /** serredact003 - Not Applicable. */
+    /** serredact003 - JAN 1, 1800 00:00. */
     public static final String REDACT_DATE_OF_BIRTH = REDACT + "003";
+    /** serredact004 - MMM d, yyyy HH:mm */
+    public static final String REDACT_DATE_FORMAT = REDACT + "004";
 }
