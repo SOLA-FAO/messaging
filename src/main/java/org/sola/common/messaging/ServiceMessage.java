@@ -286,4 +286,6 @@ public class ServiceMessage {
     public static final String OT_WS_CLAIM_CHALLENGED_CLAIM_RECORDER = OT_WS + "053";
     /** ser_ot054 - Failed to read attachment file saved in the temporary folder. */
     public static final String OT_WS_CLAIM_FAILED_TO_READ_ATTACH_FILE = OT_WS + "054";
+    /** ser_ot055 - hidden */
+    public static final String OT_WS_HIDDEN = OT_WS + "055";
 }
