@@ -1149,6 +1149,10 @@ public class ClientMessage {
      * cliadmin031 - Downloading extracted file...
      */
     public static final String ADMIN_CONSOLIDATION_EXTRACT_DOWNLOAD = ADMIN + "031";
+        /**
+     * cliadmin032 - Server cached flushed successfully.
+     */
+    public static final String ADMIN_FLUSH_CACHE = ADMIN + "032";
 
     // Progress bar messages
     /**
