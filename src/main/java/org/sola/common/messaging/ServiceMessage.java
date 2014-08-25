@@ -203,7 +203,7 @@ public class ServiceMessage {
     /** ser_ot019 - Claim not found. */
     public static final String OT_WS_CLAIM_NOT_FOUND = OT_WS + "019";
     
-    /** ser_ot020 - Moderated, rejected or withdrawn claim can not be edited. */
+    /** ser_ot020 - This claim can not be edited, because of its state. */
     public static final String OT_WS_CLAIM_IS_READ_ONLY = OT_WS + "020";
     
     /** ser_ot021 - Claim has challenges which are not yet approved or rejected. */
@@ -221,7 +221,7 @@ public class ServiceMessage {
     /** ser_ot025 - Claim can not be approved, because of it's state. */
     public static final String OT_WS_CLAIM_CANT_APPROVE = OT_WS + "025";
     
-    /** ser_ot026 - Moderated, rejected or withdrawn claim can not be challenged. */
+    /** ser_ot026 - Only claims with Un-Moderated status can be challenged. */
     public static final String OT_WS_CHALLENGED_CLAIM_IS_READ_ONLY = OT_WS + "026";
     
     /** ser_ot027 - Claim challenge can't be submitted to the claim challenge. */
@@ -288,4 +288,12 @@ public class ServiceMessage {
     public static final String OT_WS_CLAIM_FAILED_TO_READ_ATTACH_FILE = OT_WS + "054";
     /** ser_ot055 - hidden */
     public static final String OT_WS_HIDDEN = OT_WS + "055";
+    /** ser_ot056 - Claim should have CREATED status to be able to submit it. */
+    public static final String OT_WS_CLAIM_CANT_SUBMIT = OT_WS + "056";
+    /** ser_ot057 - Land use is required */
+    public static final String OT_WS_CLAIM_LAND_USE_REQUIERD = OT_WS + "057";
+    /** ser_ot058 - Claim type is required */
+    public static final String OT_WS_CLAIM_TYPE_REQUIERD = OT_WS + "058";
+    /** ser_ot059 - Claim can not be challenged. */
+    public static final String OT_WS_CLAIM_CANT_BE_CHALLENGED = OT_WS + "059";
 }
