@@ -1335,6 +1335,10 @@ public class ClientMessage {
      * cliprgs104 - Loading properties to action...
      */
     public static final String PROGRESS_MSG_PROP_TO_ACTION = PROGRESSMSG + "104";
+            /**
+     * cliprgs105 - Searching parcels...
+     */
+    public static final String PROGRESS_MSG_SEARCHING_PARCELS = PROGRESSMSG + "105";
     /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
      * can remove it before adding it again.

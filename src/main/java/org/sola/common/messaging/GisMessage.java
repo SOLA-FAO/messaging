@@ -53,7 +53,8 @@ public class GisMessage {
     private static final String PRINT_PUBLIC_DISPLAY = MSG_PREFIX + "_public_display_";
     private static final String SPATIAL_UNIT_GENERIC = MSG_PREFIX + "_spatial_unit_";
     private static final String SPATIAL_UNIT_GROUP = MSG_PREFIX + "_spatial_unit_group_";
-    private static final String MEASURE = MSG_PREFIX + "measure";   
+    private static final String MEASURE = MSG_PREFIX + "measure"; 
+    private static final String STATE_LAND = MSG_PREFIX + "stateland";
    // General Messages
     /** gisgnrl001 - Error starting the service */
     public static final String GENERAL_ERROR_STARTING_SERVICE = GENERAL + "001";
@@ -317,6 +318,18 @@ public class GisMessage {
     public static final String MEASURE_DISTANCE_KILOMETERS = MEASURE + "002";
     /** gismeasure003 - Click to measure distance */
     public static final String MEASURE_TOOLTIP = MEASURE + "003";
+    
+        // State Land
+   /** gisstateland001 - State land edit */
+    public static final String STATE_LAND_EDIT_LAYER_TITLE = STATE_LAND + "001";
+   /** gisstateland002 - Select state land*/
+    public static final String STATE_LAND_SELECT_TOOLTIP = STATE_LAND + "002";
+    /** gisstateland003 - Edit state land*/
+    public static final String STATE_LAND_EDIT_TOOLTIP = STATE_LAND + "003";
+   /** gisstateland004 - Add state land*/
+    public static final String STATE_LAND_ADD_TOOLTIP = STATE_LAND + "004";
+    /** gisstateland005 - Show state land parcel list*/
+    public static final String STATE_LAND_PARCEL_LIST_TOOLTIP = STATE_LAND + "005";
     
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /** gistest001 - Unit Test Message */
