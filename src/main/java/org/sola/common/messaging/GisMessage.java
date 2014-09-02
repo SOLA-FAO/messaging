@@ -330,6 +330,8 @@ public class GisMessage {
     public static final String STATE_LAND_ADD_TOOLTIP = STATE_LAND + "004";
     /** gisstateland005 - Show state land parcel list*/
     public static final String STATE_LAND_PARCEL_LIST_TOOLTIP = STATE_LAND + "005";
+       /** gisstateland006 - Zoom to job */
+    public static final String STATE_LAND_ZOOM_TO_JOB_TOOLTIP = STATE_LAND + "006";
     
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /** gistest001 - Unit Test Message */
