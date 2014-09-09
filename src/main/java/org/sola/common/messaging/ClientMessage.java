@@ -647,6 +647,10 @@ public class ClientMessage {
      * cliapp046 - Unable to determine a property for this service.
      */
     public static final String APPLICATION_NO_PROPERTY_FOR_SERVICE = APPLICATION + "046";
+        /**
+     * cliapp047 - The selected property has been successfully added to the job.
+     */
+    public static final String APPLICATION_ADD_PROPERTY_TO_JOB = APPLICATION + "047";
     // Reports messages.
     /**
      * clirpt001 - Report generation failed. Error details: {0}
@@ -1343,6 +1347,10 @@ public class ClientMessage {
      * cliprgs106 - Saving security changes...
      */
     public static final String PROGRESS_MSG_SAVE_SECURITY_CHANGES = PROGRESSMSG + "106";
+        /**
+     * cliprgs107 - Retrieve underlying titles...
+     */
+    public static final String PROGRESS_MSG_GET_UNDERLYING_TITLES = PROGRESSMSG + "107";
     /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
      * can remove it before adding it again.
