@@ -296,4 +296,15 @@ public class ServiceMessage {
     public static final String OT_WS_CLAIM_TYPE_REQUIERD = OT_WS + "058";
     /** ser_ot059 - Claim can not be challenged. */
     public static final String OT_WS_CLAIM_CANT_BE_CHALLENGED = OT_WS + "059";
+    /** ser_ot060 - Form payload has different number of sections. */
+    public static final String OT_WS_CLAIM_FORM_PAYLOAD_WRONG_SECTIONS_NUMBER = OT_WS + "060";
+    /** ser_ot061 - Section payload "{0}" should have 1 element with related fields. */
+    public static final String OT_WS_CLAIM_PAYLOAD_SECTIONS_MISSING_ELEMENT = OT_WS + "061";
+    /** ser_ot062 - Section payload element with id="{0}" does not have the same list of fields as in the section template "{1}". */
+    public static final String OT_WS_CLAIM_PAYLOAD_SECTION_HAS_WRONG_FIELDS = OT_WS + "062";
+    /** ser_ot063 - Field template "{0}" was not found in the section element payload with id = "{1}" */
+    public static final String OT_WS_CLAIM_FIELD_TEMPLATE_NOT_FOUND_ON_ELEMENT = OT_WS + "063";
+    /** ser_ot064 - Section template "{0}" was not found in the sections payload */
+    public static final String OT_WS_CLAIM_SECTION_NOT_FOUND_ON_PAYLOAD = OT_WS + "064";
+    
 }
