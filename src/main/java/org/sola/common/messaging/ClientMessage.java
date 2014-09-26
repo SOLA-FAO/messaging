@@ -1351,6 +1351,10 @@ public class ClientMessage {
      * cliprgs107 - Retrieve underlying titles...
      */
     public static final String PROGRESS_MSG_GET_UNDERLYING_TITLES = PROGRESSMSG + "107";
+            /**
+     * cliprgs108 - Open checklist...
+     */
+    public static final String PROGRESS_MSG_OPEN_CHECKLIST = PROGRESSMSG + "108";
     /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
      * can remove it before adding it again.
