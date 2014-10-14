@@ -647,10 +647,15 @@ public class ClientMessage {
      * cliapp046 - Unable to determine a property for this service.
      */
     public static final String APPLICATION_NO_PROPERTY_FOR_SERVICE = APPLICATION + "046";
-        /**
+    /**
      * cliapp047 - The selected property has been successfully added to the job.
      */
     public static final String APPLICATION_ADD_PROPERTY_TO_JOB = APPLICATION + "047";
+    /**
+     * cliapp050 - Checklist saved successfully
+     */
+    public static final String APPLICATION_CHECKLIST_SUCCESSFULLY_SAVED = APPLICATION + "050";
+
     // Reports messages.
     /**
      * clirpt001 - Report generation failed. Error details: {0}
@@ -1153,7 +1158,7 @@ public class ClientMessage {
      * cliadmin031 - Downloading extracted file...
      */
     public static final String ADMIN_CONSOLIDATION_EXTRACT_DOWNLOAD = ADMIN + "031";
-        /**
+    /**
      * cliadmin032 - Server cached flushed successfully.
      */
     public static final String ADMIN_FLUSH_CACHE = ADMIN + "032";
@@ -1335,11 +1340,11 @@ public class ClientMessage {
      * cliprgs103 - Assigning job...
      */
     public static final String PROGRESS_MSG_ASSIGN_JOB = PROGRESSMSG + "103";
-        /**
+    /**
      * cliprgs104 - Loading properties to action...
      */
     public static final String PROGRESS_MSG_PROP_TO_ACTION = PROGRESSMSG + "104";
-            /**
+    /**
      * cliprgs105 - Searching parcels...
      */
     public static final String PROGRESS_MSG_SEARCHING_PARCELS = PROGRESSMSG + "105";
@@ -1347,11 +1352,11 @@ public class ClientMessage {
      * cliprgs106 - Saving security changes...
      */
     public static final String PROGRESS_MSG_SAVE_SECURITY_CHANGES = PROGRESSMSG + "106";
-        /**
+    /**
      * cliprgs107 - Retrieve underlying titles...
      */
     public static final String PROGRESS_MSG_GET_UNDERLYING_TITLES = PROGRESSMSG + "107";
-            /**
+    /**
      * cliprgs108 - Open checklist...
      */
     public static final String PROGRESS_MSG_OPEN_CHECKLIST = PROGRESSMSG + "108";
