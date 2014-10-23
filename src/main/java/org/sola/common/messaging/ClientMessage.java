@@ -673,6 +673,10 @@ public class ClientMessage {
      * clirpt004 - No certificate
      */
     public static final String NO_CERTIFICATE_GENERATION = REPORT + "004";
+        /**
+     * clirpt010 - Public Display Map
+     */
+    public static final String PUBLIC_DISPLAY_MAP_TITLE = REPORT + "010";
     // Digital archive messages
     /**
      * cliarch001 - Select file to open.
@@ -1360,6 +1364,10 @@ public class ClientMessage {
      * cliprgs108 - Open checklist...
      */
     public static final String PROGRESS_MSG_OPEN_CHECKLIST = PROGRESSMSG + "108";
+    /**
+     * cliprgs109 - Printing map...
+     */
+    public static final String PROGRESS_MSG_GENERATE_MAP = PROGRESSMSG + "109";
     /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
      * can remove it before adding it again.
