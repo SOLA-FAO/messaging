@@ -1368,6 +1368,10 @@ public class ClientMessage {
      * cliprgs109 - Printing map...
      */
     public static final String PROGRESS_MSG_GENERATE_MAP = PROGRESSMSG + "109";
+        /**
+     * cliprgs110 - Opening public display...
+     */
+    public static final String PROGRESS_MSG_OPEN_PUBLIC_DISPLAY = PROGRESSMSG + "110";
     /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
      * can remove it before adding it again.
