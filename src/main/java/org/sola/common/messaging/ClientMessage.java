@@ -450,6 +450,14 @@ public class ClientMessage {
      * clichck107 - gender must be specified.
      */
     public static final String CHECK_FIELD_INVALID_LENGTH_PASSWORD = CHECK + "107";
+     /**
+     * clichck108 - Select the item type.
+     */
+    public static final String CHECK_FIELD_DISPLAY_ITEM_TYPE = CHECK + "108";
+    /**
+     * clichck109 - Select the item status.
+     */
+    public static final String CHECK_FIELD_DISPLAY_ITEM_STATUS = CHECK + "109";
 
     // Application messages
     /**
@@ -655,6 +663,10 @@ public class ClientMessage {
      * cliapp050 - Checklist saved successfully
      */
     public static final String APPLICATION_CHECKLIST_SUCCESSFULLY_SAVED = APPLICATION + "050";
+    /**
+     * cliapp051 - Display item saved successfully
+     */
+    public static final String DISPLAY_ITEM_SUCCESSFULLY_SAVED = APPLICATION + "051";
 
     // Reports messages.
     /**
@@ -673,7 +685,7 @@ public class ClientMessage {
      * clirpt004 - No certificate
      */
     public static final String NO_CERTIFICATE_GENERATION = REPORT + "004";
-        /**
+    /**
      * clirpt010 - Public Display Map
      */
     public static final String PUBLIC_DISPLAY_MAP_TITLE = REPORT + "010";
@@ -1368,10 +1380,14 @@ public class ClientMessage {
      * cliprgs109 - Printing map...
      */
     public static final String PROGRESS_MSG_GENERATE_MAP = PROGRESSMSG + "109";
-        /**
+    /**
      * cliprgs110 - Opening public display...
      */
     public static final String PROGRESS_MSG_OPEN_PUBLIC_DISPLAY = PROGRESSMSG + "110";
+        /**
+     * cliprgs111 - Opening display item...
+     */
+    public static final String PROGRESS_MSG_OPEN_DISPLAY_ITEM = PROGRESSMSG + "111";
     /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
      * can remove it before adding it again.
