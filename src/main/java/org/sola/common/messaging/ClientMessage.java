@@ -667,6 +667,14 @@ public class ClientMessage {
      * cliapp051 - Display item saved successfully
      */
     public static final String DISPLAY_ITEM_SUCCESSFULLY_SAVED = APPLICATION + "051";
+    /**
+     * cliapp052 - Objection saved successfully
+     */
+    public static final String OBJECTION_SUCCESSFULLY_SAVED = APPLICATION + "052";
+    /**
+     * cliapp053 - Notify parties saved successfully
+     */
+    public static final String NOTIFY_PARTIES_SUCCESSFULLY_SAVED = APPLICATION + "053";
 
     // Reports messages.
     /**
@@ -845,6 +853,10 @@ public class ClientMessage {
      * clibaunit051 - Property manager assigned
      */
     public static final String BAUNIT_PROP_MANAGER_ASSIGNED = BAUNIT + "051";
+        /**
+     * clibaunit052 - Property %s successfully added to %s
+     */
+    public static final String BAUNIT_PROPERTY_ADDED = BAUNIT + "052";
 
     // General error messages
     /**
@@ -1388,6 +1400,14 @@ public class ClientMessage {
      * cliprgs111 - Opening display item...
      */
     public static final String PROGRESS_MSG_OPEN_DISPLAY_ITEM = PROGRESSMSG + "111";
+    /**
+     * cliprgs112 - Opening objection...
+     */
+    public static final String PROGRESS_MSG_OPEN_OBJECTION = PROGRESSMSG + "112";
+        /**
+     * cliprgs112 - Opening notify party...
+     */
+    public static final String PROGRESS_MSG_OPEN_NOTIFY_PARTY = PROGRESSMSG + "113";
     /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
      * can remove it before adding it again.
