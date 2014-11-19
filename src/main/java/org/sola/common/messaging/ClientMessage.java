@@ -675,6 +675,10 @@ public class ClientMessage {
      * cliapp053 - Notify parties saved successfully
      */
     public static final String NOTIFY_PARTIES_SUCCESSFULLY_SAVED = APPLICATION + "053";
+    /**
+     * cliapp054 - Valuation saved successfully
+     */
+    public static final String VALUATION_SUCCESSFULLY_SAVED = APPLICATION + "054";
 
     // Reports messages.
     /**
