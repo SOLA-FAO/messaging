@@ -450,7 +450,7 @@ public class ClientMessage {
      * clichck107 - gender must be specified.
      */
     public static final String CHECK_FIELD_INVALID_LENGTH_PASSWORD = CHECK + "107";
-     /**
+    /**
      * clichck108 - Select the item type.
      */
     public static final String CHECK_FIELD_DISPLAY_ITEM_TYPE = CHECK + "108";
@@ -680,6 +680,15 @@ public class ClientMessage {
      */
     public static final String VALUATION_SUCCESSFULLY_SAVED = APPLICATION + "054";
 
+    /**
+     * cliapp055 - Negotiations saved successfully
+     */
+    public static final String NEGOTIATIONS_SUCCESSFULLY_SAVED = APPLICATION + "055";
+        /**
+     * cliapp056 - Totals:
+     */
+    public static final String NEGOTIATIONS_TOTALS = APPLICATION + "056";
+
     // Reports messages.
     /**
      * clirpt001 - Report generation failed. Error details: {0}
@@ -857,7 +866,7 @@ public class ClientMessage {
      * clibaunit051 - Property manager assigned
      */
     public static final String BAUNIT_PROP_MANAGER_ASSIGNED = BAUNIT + "051";
-        /**
+    /**
      * clibaunit052 - Property %s successfully added to %s
      */
     public static final String BAUNIT_PROPERTY_ADDED = BAUNIT + "052";
@@ -1400,7 +1409,7 @@ public class ClientMessage {
      * cliprgs110 - Opening public display...
      */
     public static final String PROGRESS_MSG_OPEN_PUBLIC_DISPLAY = PROGRESSMSG + "110";
-        /**
+    /**
      * cliprgs111 - Opening display item...
      */
     public static final String PROGRESS_MSG_OPEN_DISPLAY_ITEM = PROGRESSMSG + "111";
@@ -1408,10 +1417,18 @@ public class ClientMessage {
      * cliprgs112 - Opening objection...
      */
     public static final String PROGRESS_MSG_OPEN_OBJECTION = PROGRESSMSG + "112";
-        /**
-     * cliprgs112 - Opening notify party...
+    /**
+     * cliprgs113 - Opening notify party...
      */
     public static final String PROGRESS_MSG_OPEN_NOTIFY_PARTY = PROGRESSMSG + "113";
+    /**
+     * cliprgs114 - Opening valuation...
+     */
+    public static final String PROGRESS_MSG_OPEN_VALUATION = PROGRESSMSG + "114";
+    /**
+     * cliprgs115 - Opening negotiation...
+     */
+    public static final String PROGRESS_MSG_OPEN_NEGOTIATION = PROGRESSMSG + "115";
     /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
      * can remove it before adding it again.
