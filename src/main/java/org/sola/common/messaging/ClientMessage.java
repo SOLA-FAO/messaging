@@ -1149,7 +1149,7 @@ public class ClientMessage {
     /**
      * cliadmin033 - Password is missing.
      */
-    public static final String ADMIN_CONSOLIDATION_PASSWORD_MISSING = ADMIN + "033";
+    public static final String ADMIN_CONSOLIDATION_NO_ACTION_SELECTED = ADMIN + "033";
 
     /**
      * cliadmin034 - Retrieve log ...
