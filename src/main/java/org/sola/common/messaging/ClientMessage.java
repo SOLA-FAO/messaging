@@ -628,7 +628,7 @@ public class ClientMessage {
     public static final String APPLICATION_SAVE_BEFORE_ACTION = APPLICATION + "039";
     /**
      * cliapp040 - You are adding new services to the list. Remember to pay the
-     * fee for new added service
+     * fee for new added task
      */
     public static final String APPLICATION_WARNING_ADDEDSERVICE = APPLICATION + "040";
     /**
@@ -636,7 +636,7 @@ public class ClientMessage {
      */
     public static final String APPLICATION_NOT_FOUND = APPLICATION + "041";
     /**
-     * cliapp042 - Application service \"{0}\", has been successfully started.
+     * cliapp042 - Task \"{0}\", has been successfully started.
      */
     public static final String APPLICATION_SERVICE_START_SUCCESS = APPLICATION + "042";
     /**
@@ -648,11 +648,11 @@ public class ClientMessage {
      */
     public static final String APPLICATION_CONFIRM_UNASSIGN = APPLICATION + "044";
     /**
-     * cliapp045 - Unable to display the screen for this service.
+     * cliapp045 - Unable to display the screen for this task.
      */
     public static final String APPLICATION_UNKNOWN_LAUNCH_PANEL = APPLICATION + "045";
     /**
-     * cliapp046 - Unable to determine a property for this service.
+     * cliapp046 - Unable to determine a property for this task.
      */
     public static final String APPLICATION_NO_PROPERTY_FOR_SERVICE = APPLICATION + "046";
     /**
