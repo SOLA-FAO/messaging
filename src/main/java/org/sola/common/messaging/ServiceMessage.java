@@ -322,5 +322,7 @@ public class ServiceMessage {
     public static final String OT_WS_CLAIM_FIELD_TEMPLATE_NOT_FOUND_ON_ELEMENT = OT_WS + "063";
     /** ser_ot064 - Section template "{0}" was not found in the sections payload */
     public static final String OT_WS_CLAIM_SECTION_NOT_FOUND_ON_PAYLOAD = OT_WS + "064";
+    /** ser_ot065 - Percentage can't be 0 or less than 0 */
+    public static final String OT_WS_CLAIM_SHARE_ZERO_PERCENTAGE = OT_WS + "065";
     
 }
