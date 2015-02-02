@@ -317,6 +317,10 @@ public class GisMessage {
     /* Changes are successfully saved.*/
     public static final String SPATIAL_UNIT_GENERIC_SAVED_SUCCESS = SPATIAL_UNIT_GENERIC + "01";
     
+    /* The merging resulted in a multipolygon. You must change the source polygons in order that the merging can result in a single polygon. */
+    public static final String SPATIAL_UNIT_GROUP_MERGED_GEOMETRY_NOT_POLYGON = SPATIAL_UNIT_GROUP + "01";
+    
+    
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /** gistest001 - Unit Test Message */
     public static final String TEST001 = TEST + "001";
