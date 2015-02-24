@@ -647,6 +647,16 @@ public class ClientMessage {
      * cliapp046 - Unable to determine a property for this service.
      */
     public static final String APPLICATION_NO_PROPERTY_FOR_SERVICE = APPLICATION + "046";
+    
+    /**
+     * cliapp047 - Property already selected
+     */
+    public static final String APPLICATION_PROPERTY_ALREADY_SELECTED = APPLICATION + "047";
+     /**
+     * cliapp048 - Do you want to use Applicant details as Notifiable Person details?
+     */
+    public static final String APPLICATION_APPLICANT_DETAILS = APPLICATION + "048";
+ 
     // Reports messages.
     /**
      * clirpt001 - Report generation failed. Error details: {0}
