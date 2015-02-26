@@ -1332,6 +1332,12 @@ public class ClientMessage {
      * cliprgs041 - Generating report...
      */
     public static final String PROGRESS_MSG_GENERATING_REPORT = PROGRESSMSG + "041";
+    
+    /**
+       * cliprgs106 - Saving security changes...
+     */
+    public static final String PROGRESS_MSG_SAVE_SECURITY_CHANGES = PROGRESSMSG + "106";
+  
     /**
      * cli_bulk_operations_001 - The destination attribute already exist! You
      * can remove it before adding it again.
