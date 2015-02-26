@@ -46,6 +46,8 @@ public class ServiceMessage {
     private static final String EJB_TRANSACTION = MSG_PREFIX + "ejbtransaction";
     private static final String ADMIN_WS = MSG_PREFIX + "adminservice";
     private static final String OT_WS = MSG_PREFIX + "_ot";
+    private static final String REDACT = MSG_PREFIX + "redact";
+    
     
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /** sertest001 - Unit Test Message */
@@ -324,5 +326,14 @@ public class ServiceMessage {
     public static final String OT_WS_CLAIM_SECTION_NOT_FOUND_ON_PAYLOAD = OT_WS + "064";
     /** ser_ot065 - Percentage can't be 0 or less than 0 */
     public static final String OT_WS_CLAIM_SHARE_ZERO_PERCENTAGE = OT_WS + "065";
-    
+  
+    /** serredact001 - Restricted. */
+    public static final String REDACT_RESTRICTED = REDACT + "001";
+    /** serredact002 - Not Applicable. */
+    public static final String REDACT_GENDER = REDACT + "002";
+    /** serredact003 - JAN 1, 1800 00:00. */
+    public static final String REDACT_DATE_OF_BIRTH = REDACT + "003";
+    /** serredact004 - MMM d, yyyy HH:mm */
+    public static final String REDACT_DATE_FORMAT = REDACT + "004";
 }
+
