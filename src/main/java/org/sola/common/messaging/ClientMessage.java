@@ -1170,6 +1170,11 @@ public class ClientMessage {
      * cliadmin035 - running.
      */
     public static final String ADMIN_CONSOLIDATION_RUNNING = ADMIN + "035";
+    
+    /**
+     * cliadmin036 - Server cached flushed successfully.
+     */
+    public static final String ADMIN_FLUSH_CACHE = ADMIN + "036";
 
     // Progress bar messages
     /**
