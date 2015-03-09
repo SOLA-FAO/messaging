@@ -1175,6 +1175,14 @@ public class ClientMessage {
      * cliadmin036 - Server cached flushed successfully.
      */
     public static final String ADMIN_FLUSH_CACHE = ADMIN + "036";
+     /**
+     * cliadmin037 - Test v1503a
+     */
+    public static final String ADMIN_TEST_VERSION_NUMBER = ADMIN + "037";
+    /**
+     * cliadmin037 - Release v1503a
+     */
+    public static final String ADMIN_PROD_VERSION_NUMBER = ADMIN + "038";
 
     // Progress bar messages
     /**
@@ -1378,4 +1386,12 @@ public class ClientMessage {
      * clisec003 - Your password has expired.
      */
     public static final String SECURITY_PASSWORD_EXPIRED = SECURITY + "003";
+    /**
+     * clisec004 - Registry Desktop
+     */
+    public static final String SECURITY_LOGIN_TITLE_REGISTRY = SECURITY + "004";
+     /**
+     * clisec005 - Admin Desktop
+     */
+    public static final String SECURITY_LOGIN_TITLE_ADMIN = SECURITY + "005";
 }
